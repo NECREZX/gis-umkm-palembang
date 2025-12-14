@@ -1006,10 +1006,6 @@ latitude	longitude	nama	nim	kelas	umkm	kategori	jlhpegawai
 -3.036725	104.793706	Widiya Srilestari	2230803161	2283C	Pecel Lele Nasi Goreng	Kuliner	
 -3.037175	104.793999	Widiya Srilestari	2230803161	2283C	Buah Segar Hermina	Dagang	
 -3.037728	104.794392	Widiya Srilestari	2230803161	2283C	Toko Durian	Dagang	
--2.936689	104.719182	Muhammad Dhias Habibi	2.30515E+11	2283C	Bakso Malang Raju	Kuliner	5
--2.936865	104.718978	Muhammad Dhias Habibi	2.30515E+11	2283C	Pempek Nony	Kuliner	3
--2.916559	104.70203	Muhammad Dhias Habibi	2.30515E+11	2283C	Rumah Makan Pak Yono	Kuliner	2
--2.94171	104.709476	Muhammad Dhias Habibi	2.30515E+11	2283C	Moza Bags	Fashion	"	"
 -2.98085	104.76436	M Dwi Afdhol	2220803047	2283C	Angkringan Bang Jo	Kuliner	5
 -2.980.940	104.767.910	M Dwi Afdhol	2220803047	2283C	Abu Jamil Store	Fashion	2
 -2.981.010	104.764.360	M Dwi Afdhol	2220803047	2283C	Toko Pakan Ternak AA Jaya	Dagang	2
@@ -1025,3 +1021,18 @@ latitude	longitude	nama	nim	kelas	umkm	kategori	jlhpegawai
 -2.978.050	104.771.130	M Dwi Afdhol	2220803047	2283C	Ruci Cell	Kuliner	1
 -2.979.000	104.771.290	M Dwi Afdhol	2220803047	2283C	Rumah Makan Hadrami	Kuliner	2
 -2.980.780	104.770.570	M Dwi Afdhol	2220803047	2283C	Potong Rambut Singgalang	Jasa	2
+-2.936689	104.719182	Muhammad Dhias Habibi	2.30515E+11	2283C	Bakso Malang Raju	Kuliner	5
+-2.936854	104.719242	Muhammad Dhias Habibi	2.30515E+11	2283C	Pempek Nony	Kuliner	3
+-2.916559	104.70203	Muhammad Dhias Habibi	2.30515E+11	2283C	Rumah Makan Pak Yono	Kuliner	2
+-2.936159	104.718962	Muhammad Dhias Habibi	2.30515E+11	2283C	Martabak Telor Mena Yusuf	Kuliner	2
+-2.941711	104.709477	Muhammad Dhias Habibi	2.30515E+11	2283C	Moza Bags	Fashion	2
+-2.943073	104.707855	Muhammad Dhias Habibi	2.30515E+11	2283C	My Laundry	Jasa	2
+-2.941722	104.709594	Muhammad Dhias Habibi	2.30515E+11	2283C	Toko Asiong	Dagang	2
+-2.941628	104.709658	Muhammad Dhias Habibi	2.30515E+11	2283C	Elstar Fotocopy	Jasa	2
+-2.941839	104.709195	Muhammad Dhias Habibi	2.30515E+11	2283C	Toko Bahan Kue Aneka	Dagang	3
+-2.942087	104.708852	Muhammad Dhias Habibi	2.30515E+11	2283C	RM Anugerah Minang	Kuliner	3
+-2.941557	104.709242	Muhammad Dhias Habibi	2.30515E+11	2283C	Salsabila Cell	Dagang	1
+-2.941275	104.709236	Muhammad Dhias Habibi	2.30515E+11	2283C	The Yellow Salon Sulaiman Amin	Jasa	4
+-2.941122	104.709243	Muhammad Dhias Habibi	2.30515E+11	2283C	Bakso Brutal	Fashion	3
+-2.935277	104.710633	Muhammad Dhias Habibi	2.30515E+11	2283C	Konveksi kemeja & Bordir komputer	Jasa	2
+-2.933967	104.715029	Muhammad Dhias Habibi	2.30515E+11	2283C	RM Pincuran - Masakan Padang	Kuliner	4
