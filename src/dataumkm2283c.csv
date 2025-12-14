@@ -1,452 +1,467 @@
-latitude,longitude,nama,nim,kelas,umkm,kategori,jlhpegawai
--2.98144,104.75664,Muhammad Akbar Pratama,2210803001,2283C,Sparepart Mobil Permai Jaya,Dagang,4
--2.9563,104.72595,Muhammad Akbar Pratama,2210803001,2283C,Jruk Peras Royal 01,Kuliner,1
--2.91312,104.69043,Muhammad Akbar Pratama,2210803001,2283C,Sambal Seruit Bu El,Kuliner,3
--2.91316,104.69047,Muhammad Akbar Pratama,2210803001,2283C,Toko Bahan Kue Lucky,Dagang,3
--2.91333,104.69115,Muhammad Akbar Pratama,2210803001,2283C,Bakso Jomblo,Kuliner,4
--2.9133,104.69139,Muhammad Akbar Pratama,2210803001,2283C,Roti Bakar Iyan 12,Kuliner,2
--2.91322,104.69128,Muhammad Akbar Pratama,2210803001,2283C,Pondok Ayam Bakar & Bakso H.M Tarjo,Kuliner,6
--2.91326,104.69125,Muhammad Akbar Pratama,2210803001,2283C,Martabak Hartop Samiroso,Kuliner,4
--2.913262,104.69116,Muhammad Akbar Pratama,2210803001,2283C,Sarapan Pagi Barokah,Kuliner,2
--2.91327,104.69098,Muhammad Akbar Pratama,2210803001,2283C,Pangkas Rambut Famili 2,Jasa,1
--2.913271,104.69094,Muhammad Akbar Pratama,2210803001,2283C,Kerupuk Tiga Mutiara,Dagang,1
--2.9133,104.69084,Muhammad Akbar Pratama,2210803001,2283C,Toko Lampu Sumber Terang,Dagang,1
--2.91328,104.69079,Muhammad Akbar Pratama,2210803001,2283C,Toko tani maju,Dagang,2
--2.91325,104.69069,Muhammad Akbar Pratama,2210803001,2283C,Salon Vivin,Jasa,1
--2.9133,104.69066,Muhammad Akbar Pratama,2210803001,2283C,Radenmart,Dagang,4
--2.99851,104.77674,Giri Syawega,2210803005,2283C,Arifini Fried Chiken,Kuliner,2
--3.05003,104.78452,Giri Syawega,2210803005,2283C,Pisang Karamel,Kuliner,1
--3.05001,104.784527,Giri Syawega,2210803005,2283C,Roti Jhon,Kuliner,1
--3.05003,104.78455,Giri Syawega,2210803005,2283C,Angkringan Wandi,Kuliner,1
--2.99544,104.77838,Giri Syawega,2210803005,2283C,Sarapan Pagi Bu Ida,Kuliner,2
--2.9976,104.78272,Giri Syawega,2210803005,2283C,Ayam Geprek,Kuliner,4
--2.99912,104.77749,Muhammad Afif Nafidz,2220803020,2283C,Ayam Bakar Saung Kenangan,Kuliner,3
--3.00081,104.77921,Muhammad Afif Nafidz,2220803020,2283C,Toko Niko,Dagang,1
--3.00057,104.77879,Muhammad Afif Nafidz,2220803020,2283C,Fotocopy Arsya X Galery Net,Jasa,1
--2.99691,104.77612,Muhammad Afif Nafidz,2220803020,2283C,Tnt Partyshop,Dagang,2
--2.9999,104.7779,Muhammad Afif Nafidz,2220803020,2283C,Toko Pandan Agung Wangi,Dagang,1
--2.99546,104.77855,Muhammad Afif Nafidz,2220803020,2283C,Sultan Badjoe Thrift Brand,Dagang,1
--2.99538,104.77825,Muhammad Afif Nafidz,2220803020,2283C,Pratama Cell,Dagang,3
--2.99597,104.77958,Muhammad Afif Nafidz,2220803020,2283C,Reno'S Barber,Jasa,3
--2.99629,104.78035,Muhammad Afif Nafidz,2220803020,2283C,Letta Shop,Dagang,2
--2.99804,104.78209,Muhammad Afif Nafidz,2220803020,2283C,Gunting Rambut Pria Mulyadi Fans,Jasa,1
--3.00038,104.77856,Muhammad Afif Nafidz,2220803020,2283C,Rumah Makan Bang Zulfan,Kuliner,3
--2.99998,104.77812,Muhammad Afif Nafidz,2220803020,2283C,Cristal Clean Laundry,Jasa,2
--2.99873,104.7771,Muhammad Afif Nafidz,2220803020,2283C,Metal Net,Jasa,2
--3.00009,104.77831,Muhammad Afif Nafidz,2220803020,2283C,Bengkel Motor Rasya 2,Jasa,4
--2.99907,104.77723,Muhammad Afif Nafidz,2220803020,2283C,Nila Pet Shop,Dagang,3
--3.2936,104.83166,Ronal Yudiarta,2220803022,2283C,Bengkel Motor Effendi,Jasa,2
--3.29333,104.83229,Ronal Yudiarta,2220803022,2283C,Warung Manik,Dagang,1
--3.29248,104.8337,Ronal Yudiarta,2220803022,2283C,Warung Erik,Dagang,2
--3.40314,104.82452,Ronal Yudiarta,2220803022,2283C,Bakso Anin,Kuliner,4
--3.29284,104.83296,Ronal Yudiarta,2220803022,2283C,Penjahit Elly,Jasa,1
--3.29463,104.83142,Ronal Yudiarta,2220803022,2283C,Warung Paisal,Dagang,1
--3.29666,104.8319,Ronal Yudiarta,2220803022,2283C,Warung Perlengkapan Gendut,Dagang,2
--3.29578,104.83646,Ronal Yudiarta,2220803022,2283C,Yoga Cell,Agribisnis,2
--3.29539,104.83814,Ronal Yudiarta,2220803022,2283C,Mie Ayam Kanadar,Kuliner,1
--3.29424,104.83149,Ronal Yudiarta,2220803022,2283C,Bengkel Mobil Kasim,Jasa,4
--3.29683,104.83151,Ronal Yudiarta,2220803022,2283C,Dading Cell,Agribisnis,1
--3.28541,104.87626,Ronal Yudiarta,2220803022,2283C,Barbershop Jho,Jasa,2
--2.902255,104.672387,Muhammad Iqbal,2220803033,2283C,Linda Cell,Dagang,2
--2.902191,104.672474,Muhammad Iqbal,2220803033,2283C,Martabak Telur Mas Teguh,Kuliner,4
--2.902191,104.672474,Muhammad Iqbal,2220803033,2283C,Toko Sembako Pak Herman,Dagang,2
--2.901334,104.67399,Muhammad Iqbal,2220803033,2283C,Mie Ayam Bakso Wonogiri Kharisma,Kuliner,3
--2.90081,104.674587,Muhammad Iqbal,2220803033,2283C,Bengkel Glory Motor,Jasa,2
--2.894017,104.680137,Muhammad Iqbal,2220803033,2283C,Toko 2 Putra,Dagang,2
--2.903094,104.672562,Muhammad Iqbal,2220803033,2283C,RM Piaman Jaya,Kuliner,4
--2.906448,104.668362,Muhammad Iqbal,2220803033,2283C,Model Tekwan Wak Las,Kuliner,4
--2.901833,104.673534,Muhammad Iqbal,2220803033,2283C,Toko Affam,Dagang,2
--2.905029,104.67006,Muhammad Iqbal,2220803033,2283C,Toko Listrik & Bangunan Cahaya Jaya,Dagang,3
--2.9027,104.673043,Muhammad Iqbal,2220803033,2283C,Toko Sri,Dagang,5
--2.898909,104.676185,Muhammad Iqbal,2220803033,2283C,Lala Jati Furniture,Dagang,2
--2.895544,104.678832,Muhammad Iqbal,2220803033,2283C,Toko Baby Halid,Dagang,3
--2.903985,104.671327,Muhammad Iqbal,2220803033,2283C,Pecel Lele Ayam Bakar Abang Ray,Kuliner,3
--2.911474,104.662139,Muhammad Iqbal,2220803033,2283C,Sila Putri Jati,Dagang,5
--3.04986,104.82882,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.04097,104.83354,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03622,104.83656,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03622,104.83656,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03431,104.83585,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03084,104.83434,Maiko Aprianto,2220803035,2283C,Toko Bangunan,Dagang,
--3.02723,104.83281,Maiko Aprianto,2220803035,2283C,Fashion,Fashion,
--3.02859,104.83352,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.0294,104.83394,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.0307,104.8344,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03405,104.83588,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03789,104.83768,Maiko Aprianto,2220803035,2283C,Gado-Gado,Kuliner,
--3.03866,104.8382,Maiko Aprianto,2220803035,2283C,Kuliner,Dagang,
--3.03867,104.83819,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03888,104.83828,Maiko Aprianto,2220803035,2283C,Warung,Dagang,
--3.03911,104.83852,Maiko Aprianto,2220803035,2283C,Galon,Dagang,
--2.955125,104.786389,Erlin Lilis,2220803041,2283B,Es Cendol Klaten Gula Aren,Kuliner,2
--2.962922,104.784965,Erlin Lilis,2220803041,2283B,Tekwan Depan Pos Indonesia Sekojo,Kuliner,1
--2.958484,104.783448,Erlin Lilis,2220803041,2283B,Warung Bakso Sekojo,Kuliner,2
--2.959099,104.788221,Erlin Lilis,2220803041,2283B,Bakso Om Boma,Kuliner,2
--2.955398,104.757226,Erlin Lilis,2220803041,2283B,Laundry Express,Jasa,2
--2.958801,104.783497,Erlin Lilis,2220803041,2283B,Laudnry Griya Sekojo,Jasa,3
--2.949906,104.797734,Erlin Lilis,2220803041,2283B,AA Laundry Cabang Sekojo,Jasa,2
--2.957961,104.80792,Erlin Lilis,2220803041,2283B,Livecut BarberShop,Jasa,1
--2.939027,104.778673,Erlin Lilis,2220803041,2283B,Dyana Laundry,Jasa,2
--2.971278,104.75324,Erlin Lilis,2220803041,2283B,Nasi Goreng Mas Min,Kuliner,2
--2.976906,104.754404,Erlin Lilis,2220803041,2283B,Kedai Hoki 888,Kuliner,3
--2.952321,104.786883,Erlin Lilis,2220803041,2283B,Salon Nur,Jasa,2
--2.969547,104.80596,Erlin Lilis,2220803041,2283B,Nona Ngemil,Kuliner,5
--2.957525,104.795047,Erlin Lilis,2220803041,2283B,Seblak Kania,Kuliner,4
--2.95756,104.79627,Erlin Lilis,2220803041,2283B,BIN Laundry,Jasa,2
--3.00367,104.76429,Silva Melvina,2220803045,2283C,Pisang Karamel Tahu Hot Jeletot,Kuliner,1
--3.072428,104.764253,Silva Melvina,2220803045,2283C,D'limau,Kuliner,1
--3.007212,104.763825,Silva Melvina,2220803045,2283C,Es Jagung Ice Cream Onee,Kuliner,1
--3.008459,104.766598,Silva Melvina,2220803045,2283C,Martabak Bangka AA,Kuliner,1
--3.002963,104.770956,Silva Melvina,2220803045,2283C,Pecel Lele Ipado,Kuliner,2
--3.002067,104.770229,Silva Melvina,2220803045,2283C,Preloved Paradise,Fashion,2
--2.998699,104.770971,Silva Melvina,2220803045,2283C,Nila Petshop,Dagang,1
--2.996678,104.774862,Silva Melvina,2220803045,2283C,Dimsum Mentai Lea,Kuliner,1
--2.994581,104.779911,Silva Melvina,2220803045,2283C,Pecel Lele & Seafood Saqil,Kuliner,3
--2.992849,104.782199,Silva Melvina,2220803045,2283C,Pempek Sentosa,Kuliner,5
--2.991269,104.785323,Silva Melvina,2220803045,2283C,Seafood & Pecel Lele 99 H.Syam,Kuliner,4
--2.997227,104.784019,Silva Melvina,2220803045,2283C,Global Cell,Dagang,1
--2.997989,104.783313,Silva Melvina,2220803045,2283C,Barbershop Balbox,Jasa,1
--2.996515,104.780789,Silva Melvina,2220803045,2283C,I-dea Laundry,Jasa,4
--2.996318,104.780539,Silva Melvina,2220803045,2283C,Hilya Laundry,Jasa,4
--2.98085,104.76436,M Dwi Afdhol,2220803047,2283C,Angkringan Bang Jo,Kuliner,3
--3.12782,104.79937,Rossi Oktavianti,2220803052,2283C,Kemplang Asrania,Kuliner,3
--3.12815,104.79945,Rossi Oktavianti,2220803052,2283C,Kemplang M.Arif,Kuliner,2
--3.1192,104.7815,Rossi Oktavianti,2220803052,2283C,Toko Serba Ada Pemulutan Ilir,Dagang,2
--3.1189,104.782,Rossi Oktavianti,2220803052,2283C,Warung Makan Sederhana,Kuliner,3
--3.1185,104.7808,Rossi Oktavianti,2220803052,2283C,Sembako Makmur Jaya,Dagang,2
--3.1187,104.7802,Rossi Oktavianti,2220803052,2283C,Depot Air Minum Isi Ulang,Dagang,1
--3.1183,104.781,Rossi Oktavianti,2220803052,2283C,Kedai Kopi Pemulutan Ilir,Kuliner,2
--3.119,104.7813,Rossi Oktavianti,2220803052,2283C,Toko Pakaian Pemulutan Ilir,Fashion,1
--3.1188,104.7822,Rossi Oktavianti,2220803052,2283C,Bengkel Motor Darma Jaya,Jasa,2
--3.1186,104.7817,Rossi Oktavianti,2220803052,2283C,Warung Bakso & Mie Ayam,Kuliner,2
--3.1193,104.7818,Rossi Oktavianti,2220803052,2283C,Kerajinan Tangan Rumahan,Jasa,1
--3.1191,104.7816,Rossi Oktavianti,2220803052,2283C,Usaha Kue Tradisional,Kuliner,2
--3.1194,104.7819,Rossi Oktavianti,2220803052,2283C,UMKM Sabun Rumahan,Dagang,1
--3.1189,104.7812,Rossi Oktavianti,2220803052,2283C,Usaha Potong Rambut,Jasa,1
--3.1187,104.7809,Rossi Oktavianti,2220803052,2283C,Toko Elektronik Kecil,Dagang,2
--3.1195,104.7811,Rossi Oktavianti,2220803052,2283C,Usaha Jahit & Konveksi,Jasa,2
--2.96202,104.7562,Owen Saputra,2220803053,2283C,Pempek Palembang Asli,Kuliner,2
--2.9621,104.75613,Owen Saputra,2220803053,2283C,Ayam Bakar Madu 6900,Kuliner,1
--2.96215,104.75535,Owen Saputra,2220803053,2283C,Kaki Langit,Kuliner,2
--2.96218,104.7548,Owen Saputra,2220803053,2283C,Warung Nasi Nyai Rahma,Kuliner,1
--2.96224,104.75438,Owen Saputra,2220803053,2283C,Toko Jaya Wijaya,Dagang,1
--2.96208,104.75333,Owen Saputra,2220803053,2283C,Toko Sembako Bu Nini,Dagang,2
--2.96148,104.75313,Owen Saputra,2220803053,2283C,Papa Laundry,Jasa,2
--2.96058,104.75344,Owen Saputra,2220803053,2283C,Warung Makan Upik,Kuliner,1
--2.96102,104.75334,Owen Saputra,2220803053,2283C,Warung Nasi Bude Rahmat,Kuliner,1
--2.96218,104.75217,Owen Saputra,2220803053,2283C,Pondok Dogan Bunda,Kuliner,1
--2.96295,104.75181,Owen Saputra,2220803053,2283C,Mawar Laundry,Jasa,2
--2.96392,104.75036,Owen Saputra,2220803053,2283C,Es Teh & Es Jeruk Davani,Kuliner,1
--2.96567,104.75372,Owen Saputra,2220803053,2283C,Toko Leody,Dagang,1
--2.96446,104.75398,Owen Saputra,2220803053,2283C,Toko Alan,Dagang,1
--2.96359,104.7536,Owen Saputra,2220803053,2283C,Abang Laundry,Jasa,1
--3.00417,104.77182,Nia Saka Lena,2220803054,2283C,Avini Buah,Dagang,2
--3.00409,104.77171,Nia Saka Lena,2220803054,2283C,Angkringan K7,Kuliner,4
--3.00394,104.77164,Nia Saka Lena,2220803054,2283C,Gie Seblak,Kuliner,3
--3.00389,104.77161,Nia Saka Lena,2220803054,2283C,Laundry Express 2 jam*,Jasa,4
--3.00269,104.7708,Nia Saka Lena,2220803054,2283C,Akbar Cell,Dagang,4
--3.00263,104.77076,Nia Saka Lena,2220803054,2283C,Penjahit Arrahman,Jasa,2
--3.00238,104.77057,Nia Saka Lena,2220803054,2283C,Wiwin Kebaya,Jasa,1
--3.00187,104.77021,Nia Saka Lena,2220803054,2283C,Paris Variasi Car Accessories & Cover Jok,Dagang,5
--3.00102,104.77003,Nia Saka Lena,2220803054,2283C,Anggun Salon/Babershop,Jasa,2
--3.00119,104.77015,Nia Saka Lena,2220803054,2283C,Warung Kak Dedek,Dagang,1
--3.00123,104.77019,Nia Saka Lena,2220803054,2283C,Toko Chandra,Dagang,1
--3.00264,104.77125,Nia Saka Lena,2220803054,2283C,Warung Makan Uli,Kuliner,2
--3.00278,104.77113,Nia Saka Lena,2220803054,2283C,Jajanan Nuhaa,Kuliner,2
--3.00282,104.77119,Nia Saka Lena,2220803054,2283C,Bengkel Warung Berkat Ibu,Jasa,3
--3.00447,104.77232,Nia Saka Lena,2220803054,2283C,Percetakan Indomedia,Jasa,7
--2.98051,104.74721,Putri Delarani Azzahra,2220803056,2283C,Warung Bakso Solo Pak Min,Kuliner,5
--2.98023,104.74703,Putri Delarani Azzahra,2220803056,2283C,Sate Madura Cak Udin,Kuliner,4
--2.98112,104.74688,Putri Delarani Azzahra,2220803056,2283C,Martabak Bangka,Kuliner,3
--2.97994,104.74745,Putri Delarani Azzahra,2220803056,2283C,Ayam Geprek Master,Kuliner,6
--2.98078,104.7477,Putri Delarani Azzahra,2220803056,2283C,Warung Nasi Uduk Bu Yanti,Dagang,4
--2.98195,104.74652,Putri Delarani Azzahra,2220803056,2283C,Toko Kelontong Berkah,Dagang,2
--2.9823,104.74631,Putri Delarani Azzahra,2220803056,2283C,Laundry Angkatan Clean & Fresh,Jasa,3
--2.98272,104.74792,Putri Delarani Azzahra,2220803056,2283C,Barbershop Gentlemen,Jasa,3
--2.98298,104.74726,Putri Delarani Azzahra,2220803056,2283C,Salon Ratu Cantik,Jasa,3
--2.9816,104.74783,Putri Delarani Azzahra,2220803056,2283C,Kedai Kopi Warkop,Kuliner,4
--2.98242,104.74678,Putri Delarani Azzahra,2220803056,2283C,Apotek Angkatan 66,Dagang,3
--2.98183,104.74734,Putri Delarani Azzahra,2220803056,2283C,Kantin Bu Ani,Kuliner,2
--2.98099,104.74812,Putri Delarani Azzahra,2220803056,2283C,Warung Mie Ayam & Bakso Mang Suyat,Kuliner,4
--2.98215,104.74695,Putri Delarani Azzahra,2220803056,2283C,Toko Sembako Makmur Jaya,Kuliner,2
--2.98131,104.74764,Putri Delarani Azzahra,2220803056,2283C,Toko Roti & Kue Family,Kuliner,3
--2.97645,104.74689,Fatimah Azzahra,2220803065,2283C,Warung Pempek Mang Apud,Kuliner,3
--2.97688,104.74732,Fatimah Azzahra,2220803065,2283C,Pempek Ny Rahayu,Kuliner,2
--2.97712,104.74712,Fatimah Azzahra,2220803065,2283C,Pempek Gaby,Kuliner,2
--2.9762,104.74645,Fatimah Azzahra,2220803065,2283C,RM Pindang Meranjat Sekip,Kuliner,5
--2.97584,104.74685,Fatimah Azzahra,2220803065,2283C,Ayam Goreng Pak Ujang,Kuliner,3
--2.97754,104.74772,Fatimah Azzahra,2220803065,2283C,Sate Madura H.Husen,Kuliner,3
--2.97802,104.74796,Fatimah Azzahra,2220803065,2283C,Bakso Pak Slamet,Kuliner,2
--2.97732,104.74698,Fatimah Azzahra,2220803065,2283C,Kedai Kopi Sekip Corner,Kuliner,3
--2.97765,104.74754,Fatimah Azzahra,2220803065,2283C,Teh Tarik & Juice Bar Sekip,Kuliner,2
--2.97695,104.74665,Fatimah Azzahra,2220803065,2283C,Martabak King,Kuliner,2
--2.97631,104.74631,Fatimah Azzahra,2220803065,2283C,Toko Roti & Kue Sekip,Kuliner,4
--2.97843,104.74723,Fatimah Azzahra,2220803065,2283C,Warung Mie Ayam Ceker Sekip,Kuliner,3
--2.97814,104.74788,Fatimah Azzahra,2220803065,2283C,Warung Sop Iga Sekip,Kuliner,3
--2.979,104.74611,Fatimah Azzahra,2220803065,2283C,Toko Kelontong Sekip Jaya,Dagang,2
--2.97925,104.74598,Fatimah Azzahra,2220803065,2283C,Laundry Sekip Clean,Jasa,3
--2.97872,104.74704,Fatimah Azzahra,2220803065,2283C,Salon Pak Arif,Jasa,3
--2.97895,104.74721,Fatimah Azzahra,2220803065,2283C,Salon Cantik Sekip,Jasa,3
--2.97944,104.74672,Fatimah Azzahra,2220803065,2283C,Barbershop Sekip Fresh,Jasa,3
--2.97982,104.74635,Fatimah Azzahra,2220803065,2283C,Toko Handphone & Aksesoris Sekip,Dagang,2
--2.97861,104.74758,Fatimah Azzahra,2220803065,2283C,Toko Sembako Makmur Sekip,Dagang,2
--2.98005,104.74592,Fatimah Azzahra,2220803065,2283C,Warung Nasi Uduk Hj. Siti,Kuliner,2
--2.97821,104.74786,Fatimah Azzahra,2220803065,2283C,Bengkel Motor Sekip Mandiri,Jasa,3
--2.97833,104.7471,Fatimah Azzahra,2220803065,2283C,Percetakan Print Sekip,Jasa,3
--2.97874,104.74745,Fatimah Azzahra,2220803065,2283C,Toko ATK Sekip Stationer,Dagang,2
--2.98035,104.74628,Fatimah Azzahra,2220803065,2283C,Warung Jajan Goreng Sekip,Kuliner,1
--3.02451,104.77251,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Pempek Candy OPI,Kuliner,6
--3.02482,104.77296,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Pempek Panggang OPI,Kuliner,4
--3.02513,104.77188,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Warung Bakso Mas Joko,Kuliner,5
--3.02396,104.77243,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Ayam Geprek Bensu OPI,Kuliner,7
--3.02275,104.77322,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Sambel Ulek Bakar,Kuliner,3
--3.02251,104.77351,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Mie Ayam OPI ,Kuliner,5
--3.02235,104.77398,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Dimsum OPI ,Kuliner,2
--3.02298,104.77421,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Es Teler 77 OPI Mall,Kuliner,7
--3.02341,104.77475,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Crepes enak OPI Mall,Kuliner,2
--3.02423,104.77413,Muhammad Alfa'aiz Ilham ,2220803067,2283C,BreadTalk OPI,Kuliner,8
--3.02542,104.77282,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Kedai Kopi Warkop OPI,Kuliner,4
--3.02611,104.77166,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Warung Sate Madura Pak Iwan,Kuliner,5
--3.02652,104.77133,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Martabak Bangka 77 OPI,Kuliner,4
--3.02733,104.77098,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Warung Tekwan Selera Kita,Kuliner,4
--3.02781,104.77056,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Kedai Mie Ayam Pak Kumis,Kuliner,5
--3.02569,104.76989,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Toko Kelontong OPI,Kuliner,3
--3.02594,104.77033,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Alfamart OPI Raya,Dagang,6
--3.02633,104.77114,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Indomaret OPI Raya,Dagang,6
--3.02756,104.76892,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Laundry OPI Clean & Fresh,Dagang,3
--3.02793,104.76853,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Barbershop OPI Style,Jasa,3
--3.02722,104.76875,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Salon OPI Cantik,Jasa,4
--3.02688,104.76943,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Toko Aksesoris Fashion OPI,Jasa,2
--3.02525,104.77098,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Apotek OPI Farma,Dagang,5
--3.02652,104.76962,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Toko Sembako Berkah OPI,Kuliner,3
--3.02499,104.77174,Muhammad Alfa'aiz Ilham ,2220803067,2283C,Kedai Jus Sehat OPI,Kuliner,4
--3.35682,104.83245,Eka Maisito,2220803068,2283C,Pempek Ema Mulyadi,Kuliner,4
--3.35741,104.83312,Eka Maisito,2220803068,2283C,Pempek 24 ILIR,Kuliner,5
--3.35596,104.83402,Eka Maisito,2220803068,2283C,Pempek AYU,Kuliner,3
--3.35633,104.83278,Eka Maisito,2220803068,2283C,Pempek Julie,Kuliner,3
--3.35788,104.83196,Eka Maisito,2220803068,2283C,Pempek Pak Dien,Kuliner,4
--3.35492,104.83354,Eka Maisito,2220803068,2283C,Toko Pempek Memories,Kuliner,6
--3.35531,104.83411,Eka Maisito,2220803068,2283C,Pempek Imey,Kuliner,3
--3.35674,104.83172,Eka Maisito,2220803068,2283C,Toko Kue dan Pempek Melati,Kuliner,4
--3.35726,104.83295,Eka Maisito,2220803068,2283C,Warung Wak Sur (RomaDeal Pempek),Kuliner,5
--3.35605,104.83368,Eka Maisito,2220803068,2283C,Warung Pempek Bu Ningsih 29,Kuliner,4
--3.35577,104.83231,Eka Maisito,2220803068,2283C,Warung Pempek Kayla,Kuliner,3
--3.35499,104.83429,Eka Maisito,2220803068,2283C,Warung Pempek Yanti,Kuliner,3
--3.35769,104.83288,Eka Maisito,2220803068,2283C,Pondok Pempek Online,Kuliner,2
--3.35552,104.83376,Eka Maisito,2220803068,2283C,Pempek Aloy Beguyur,Kuliner,4
--3.35618,104.8326,Eka Maisito,2220803068,2283C,Pempek & Mie Pangsit Putra Remaja,Kuliner,6
--3.35794,104.83185,Eka Maisito,2220803068,2283C,Warung Pempek Iwan Amir,Kuliner,3
--3.35821,104.83402,Eka Maisito,2220803068,2283C,RM Sederhana Kayuagung,Kuliner,8
--3.35668,104.83341,Eka Maisito,2220803068,2283C,Rumah Makan Bakul Saji Kayuagung,Kuliner,7
--3.35543,104.83217,Eka Maisito,2220803068,2283C,Rumah Makan Pagi Sore Kayu Agung,Kuliner,10
--3.35691,104.83393,Eka Maisito,2220803068,2283C,Rumah Makan Syafik,Kuliner,5
--3.35712,104.83425,Eka Maisito,2220803068,2283C,RM Pondok Indah Pindang Salai,Kuliner,7
--3.35753,104.83305,Eka Maisito,2220803068,2283C,RM Pindang Kayu Agung,Kuliner,6
--3.35627,104.83242,Eka Maisito,2220803068,2283C,Rumah Makan Sari Rasa,Kuliner,8
--3.35584,104.83377,Eka Maisito,2220803068,2283C,Toko Pempek Ebi,Kuliner,3
--3.35649,104.83294,Eka Maisito,2220803068,2283C,Pempek Selera Kita Kayuagung,Kuliner,4
--2.97603,104.69623,Muhammad Rivan,2220803070,2283C,Mandiri Sukses Fotocopy,Jasa,1
--2.98097,104.70356,Muhammad Rivan,2220803070,2283C,Ayyassy Frozen Mart,Dagang,1
--2.98047,104.70299,Muhammad Rivan,2220803070,2283C,D'Barbehshop,Jasa,3
--2.98144,104.70884,Muhammad Rivan,2220803070,2283C,Donat Kentang Kawan Mamak,Kuliner,3
--2.98251,104.71163,Muhammad Rivan,2220803070,2283C,Kerupuk & Kemplang Yam-Yam,Kuliner,1
--2.98164,104.70384,Muhammad Rivan,2220803070,2283C,Naomy Laundry,Jasa,2
--2.9819,104.7048,Muhammad Rivan,2220803070,2283C,Pempek Buk Min,Kuliner,2
--2.98172,104.7063,Muhammad Rivan,2220803070,2283C,Pupu Pet Shop,Dagang,1
--2.98111,104.71553,Muhammad Rivan,2220803070,2283C,Rumah Makan Bungo Tanjung,Kuliner,2
--2.98163,104.70776,Muhammad Rivan,2220803070,2283C,Rumah Makan Ridho,Kuliner,3
--2.98191,104.70563,Muhammad Rivan,2220803070,2283C,Sampono Perfumery,Dagang,1
--2.97579,104.69596,Muhammad Rivan,2220803070,2283C,Seblak Prasmanan Mama Al,Kuliner,3
--2.98009,104.70227,Muhammad Rivan,2220803070,2283C,Steam Motor Arashi,Jasa,3
--2.98233,104.71228,Muhammad Rivan,2220803070,2283C,Toko Kosmetik Diwi,Dagang,1
--2.97579,104.69596,Muhammad Rivan,2220803070,2283C,Yasaka Fried Chicken,Kuliner,1
--3.00948,104.69239,Rendy Al Benz,2220803077,2283C,RN Cell,Dagang,6
--3.00655,104.69146,Rendy Al Benz,2220803077,2283C,Warung Sate Devi,Dagang,2
--3.004741,104.690923,Rendy Al Benz,2220803077,2283C,Pempek Cek Inten,Dagang,2
--3.00684,104.69149,Rendy Al Benz,2220803077,2283C,Pondok Spesialias Es Bang Al,Dagang,1
--3.015176,104.693405,Rendy Al Benz,2220803077,2283C,Sate Madura Ura,Dagang,2
--3.042395,104.720819,Rendy Al Benz,2220803077,2283C,Warung Dwi Putri,Dagang,1
--3.042664,104.714223,Rendy Al Benz,2220803077,2283C,Rumah Makan Pindang Nony,Dagang,3
--3.042593,104.715252,Rendy Al Benz,2220803077,2283C,Pecel Lele Aisyah,Dagang,2
--3.027144,104.776381,Rendy Al Benz,2220803077,2283C,Toko Hemat,Dagang,1
--3.0066,104.69142,Rendy Al Benz,2220803077,2283C,RM Puncak Jaya,Dagang,3
--3.044599,104.70875,Rendy Al Benz,2220803077,2283C,Warung Zahra,Dagang,1
--3.047655,104.710528,Rendy Al Benz,2220803077,2283C,Dinda,Dagang,1
--3.042368,104.719678,Rendy Al Benz,2220803077,2283C,Kedai Razor,Dagang,1
--2.994368,104.745626,M.Rafi Ramadhan,2220803080,2283C,RM Keluarga,Kuliner,6
--3.001351,104.742006,M.Rafi Ramadhan,2220803080,2283C,RGK Cuci Motor,Jasa,5
--3.002645,104.745944,M.Rafi Ramadhan,2220803080,2283C,RJMS Bengkel Sepeda Motor,Jasa,3
--3.001387,104.742276,M.Rafi Ramadhan,2220803080,2283C,"Bakso dan Mie Ayam Mas Ber""",Kuliner,2
--3.001689,104.740993,M.Rafi Ramadhan,2220803080,2283C,AL Cell,Dagang,2
--3.002266,104.738851,M.Rafi Ramadhan,2220803080,2283C,Es Teh K-Wan,Kuliner,1
--3.002463,104.737692,M.Rafi Ramadhan,2220803080,2283C,Pecel Lele Bikle Seafood,Kuliner,3
--3.002518,104.737387,M.Rafi Ramadhan,2220803080,2283C,Zakia Parfum,Dagang,1
--3.002589,104.736879,M.Rafi Ramadhan,2220803080,2283C,D'Barbershop,Jasa,3
--3.002876,104.736402,M.Rafi Ramadhan,2220803080,2283C,Abi Cellular,Dagang,2
--3.004463,104.735126,M.Rafi Ramadhan,2220803080,2283C,WS Parfume,Dagang,2
--3.002079,104.73967,M.Rafi Ramadhan,2220803080,2283C,Martabak D'Chandra,Kuliner,1
--3.001959,104.740108,M.Rafi Ramadhan,2220803080,2283C,Yhankee Reklame dan Percetakan,Dagang,2
--3.001642,104.741273,M.Rafi Ramadhan,2220803080,2283C,Pecel Lele dan Seafood Jhon Kumis,Kuliner,3
--3.001498,104.741863,M.Rafi Ramadhan,2220803080,2283C,Rumah Makan Samudra Indah,Kuliner,1
--3.001454,104.742081,M.Rafi Ramadhan,2220803080,2283C,Dimsum Sultan,Kuliner,1
--2.94051,104.68753,Erdi Gunawan Putra,2220803082,2283C,D' Second palembang,Fashion,3
--2.94058,104.68748,Erdi Gunawan Putra,2220803082,2283C,Mifta Menjahit,Jasa,1
--2.94066,104.68736,Erdi Gunawan Putra,2220803082,2283C,Pondok Pempek Ramadhan,Kuliner,2
--2.94083,104.68705,Erdi Gunawan Putra,2220803082,2283C,Warung Bakso Pak Bagong,Kuliner,4
--2.94047,104.686702,Erdi Gunawan Putra,2220803082,2283C,Warung Pempek Tante Emi,Kuliner,1
--2.94071,104.68694,Erdi Gunawan Putra,2220803082,2283C,Rumah Pakan HK,Dagang,2
--2.94099,104.68765,Erdi Gunawan Putra,2220803082,2283C,Warung Pempek Ombay,Kuliner,1
--2.94186,104.68828,Erdi Gunawan Putra,2220803082,2283C,Rumah Makan Kapau Jaya,Kuliner,3
--2.94192,104.68821,Erdi Gunawan Putra,2220803082,2283C,Toko Eci Foto Copy,Jasa,3
--2.94243,104.68764,Erdi Gunawan Putra,2220803082,2283C,Hijrah Store,Fashion,2
--2.94152,104.68845,Erdi Gunawan Putra,2220803082,2283C,Ayam Geprek Mantap,Kuliner,1
--2.94138,104.68855,Erdi Gunawan Putra,2220803082,2283C,Davisa Parfume,Dagang,1
--2.9398,104.68911,Erdi Gunawan Putra,2220803082,2283C,Pangkas Rambut Ago Biru,Jasa,2
--2.93954,104.68878,Erdi Gunawan Putra,2220803082,2283C,Sol Sepatu Bang Syam,Jasa,1
--2.93895,104.68861,Erdi Gunawan Putra,2220803082,2283C,Toko Kaca Bintang Terang Jaya,Dagang,2
--2.93836,104.68913,Erdi Gunawan Putra,2220803082,2283C,TB Harapan Jaya,Dagang,4
--2.93811,104.68938,Erdi Gunawan Putra,2220803082,2283C,Platinum Laundry,Jasa,2
--2.93705,104.69034,Erdi Gunawan Putra,2220803082,2283C,Planet Skate,Fashion,3
--2.93672,104.69063,Erdi Gunawan Putra,2220803082,2283C,Papa Petshop,Dagang,2
--2.93638,104.69099,Erdi Gunawan Putra,2220803082,2283C,Bengkel Mobil & Motor Gear,Jasa,4
--2.93801,104.68981,Erdi Gunawan Putra,2220803082,2283C,Express Laundry,Jasa,2
--2.93829,104.68958,Erdi Gunawan Putra,2220803082,2283C,Bakso Malang Sumber Rezeki,Kuliner,2
--2.93863,104.68938,Erdi Gunawan Putra,2220803082,2283C,Toko Naysanduwot,Dagang,2
--3.04343,104.78561,Naufal Ikhsan,2220803085,2283C,Chobuci Frozen Mart,Kuliner,4
--3.02374,104.80507,Naufal Ikhsan,2220803085,2283C,Nasi Goreng Aditya,Kuliner,2
--3.02378,104.80506,Naufal Ikhsan,2220803085,2283C,Martabak Aizikro,Kuliner,2
--3.02391,104.80502,Naufal Ikhsan,2220803085,2283C,"Pecel Ayam & Pecel Lele ""Bu Ocha""",Kuliner,3
--3.02753,104.80223,Naufal Ikhsan,2220803085,2283C,Tegal Jaya Service,Jasa,2
--3.02754,104.80223,Naufal Ikhsan,2220803085,2283C,"The Continental ""Barber Shop""",Jasa,
--3.03173,104.7995,Naufal Ikhsan,2220803085,2283C,"Ayam Kalasan ""Udin""",Kuliner,
--3.03086,104.79971,Naufal Ikhsan,2220803085,2283C,Barbershop Abah Hair & Shave,Jasa,
--3.03063,104.79982,Naufal Ikhsan,2220803085,2283C,Bluuttea,Dagang,
--3.03057,104.79985,Naufal Ikhsan,2220803085,2283C,Aksara Pena,Dagang,
--3.03039,104.79994,Naufal Ikhsan,2220803085,2283C,San Service HP,Jasa,
--3.03036,104.79996,Naufal Ikhsan,2220803085,2283C,Almeera Dental Clinic,Jasa,
--3.02996,104.80022,Naufal Ikhsan,2220803085,2283C,Ace Laundry,Jasa,
--3.02891,104.80093,Naufal Ikhsan,2220803085,2283C,Rental PS Tanfeo,Jasa,
--3.02714,104.80221,Naufal Ikhsan,2220803085,2283C,Hannochs Istana cahaya kristal,Dagang,
--2.99127,104.75574,Ahmad Jibrael Algandi,2220803092,2283C,Martabak,Dagang,2
--2.99155,104.75492,Ahmad Jibrael Algandi,2220803092,2283C,Roti Donat Merdeka,Dagang,2
--2.99121,104.75384,Ahmad Jibrael Algandi,2220803092,2283C,Dimsum by Gielsa,Dagang,1
--2.99084,104.75241,Ahmad Jibrael Algandi,2220803092,2283C,Toko Penjahit Various,Jasa,1
--2.99051,104.74957,Ahmad Jibrael Algandi,2220803092,2283C,Pempek Kapten,Kuliner,3
--2.99046,104.74924,Ahmad Jibrael Algandi,2220803092,2283C,Kue Pukis Kota Baru,Dagang,2
--2.99061,104.74626,Ahmad Jibrael Algandi,2220803092,2283C,Pecel Lele,Dagang,3
--2.99023,104.74503,Ahmad Jibrael Algandi,2220803092,2283C,Pecel Lele,Dagang,4
--2.98987,104.74436,Ahmad Jibrael Algandi,2220803092,2283C,Es Jeruk Peras Oirio,Dagang,2
--2.97341,104.73849,Ahmad Jibrael Algandi,2220803092,2283C,Bubur Ayam Bandung Udin,Dagang,3
--2.97269,104.739,Ahmad Jibrael Algandi,2220803092,2283C,Bubur Goreng Bang Tora,Dagang,1
--2.97106,104.73799,Ahmad Jibrael Algandi,2220803092,2283C,Pempek Udin,Dagang,2
--2.97036,104.73609,Ahmad Jibrael Algandi,2220803092,2283C,Pecel Lele Mampir Merdeka,Dagang,4
--2.97031,104.73598,Ahmad Jibrael Algandi,2220803092,2283C,Kaka Boz Barbershop,Dagang,2
--2.99124,104.74505,Berlia Nisyah,2230803095,2283C,Croffel Bits,Dagang,2
--2.99133,104.74498,Berlia Nisyah,2230803095,2283C,Hannah Coffe,Dagang,1
--2.99128,104.74505,Berlia Nisyah,2230803095,2283C,Green Tea Pemadam Kelaparan,Dagang,1
--2.99119,104.74511,Berlia Nisyah,2230803095,2283C,Gyoza Blunak,Dagang,1
--2.99117,104.74512,Berlia Nisyah,2230803095,2283C,Tahu Bakso Kito,Dagang,2
--2.99085,104.74546,Berlia Nisyah,2230803095,2283C,O Pukis,Dagang,1
--2.99068,104.7455,Berlia Nisyah,2230803095,2283C,Tahu Bulat Khas Ciamis,Dagang,2
--2.99076,104.74566,Berlia Nisyah,2230803095,2283C,Mie Ayam Bakso,Dagang,2
--2.99076,104.74565,Berlia Nisyah,2230803095,2283C,Cireng Kuah Keju Creamy,Dagang,2
--2.99096,104.74571,Berlia Nisyah,2230803095,2283C,Jajanan Keisha,Dagang,2
--2.99115,104.74569,Berlia Nisyah,2230803095,2283C,Warung Bu Lili,Dagang,1
--2.99124,104.74579,Berlia Nisyah,2230803095,2283C,Seblak Teh Dian,Dagang,3
--2.99116,104.74578,Berlia Nisyah,2230803095,2283C,Toko Beni,Dagang,5
--2.92366,104.66354,Berlia Nisyah,2230803095,2283C,Dimsum Desti,Dagang,4
--2.92364,104.66349,Berlia Nisyah,2230803095,2283C,Toko Sri Mulyani,Dagang,4
--3.003492,104.764343,Riska Aprilia Putri,2230803097,2283C,Jus Buah Dimas,Kuliner,1
--3.004858,104.764203,Riska Aprilia Putri,2230803097,2283C,Seblak Prasmanan Mutiara,Kuliner,1
--2.994881,104.778448,Riska Aprilia Putri,2230803097,2283C,Dimsum Mentai by Icha,Kuliner,2
--3.005503,104.763329,Riska Aprilia Putri,2230803097,2283C,Tekwan Model Bik Sanah,Kuliner,1
--3.005017,104.76343,Riska Aprilia Putri,2230803097,2283C,Angkringan Laperpool,Kuliner,7
--3.004672,104.763644,Riska Aprilia Putri,2230803097,2283C,Pecel Lele Alika,Kuliner,4
--3.002704,104.764739,Riska Aprilia Putri,2230803097,2283C,Pisang Goreng Tanduk Crispy,Kuliner,1
--3.008303,104.760885,Riska Aprilia Putri,2230803097,2283C,Kedai Chelline Dimsum,Kuliner,1
--3.004946,104.763694,Riska Aprilia Putri,2230803097,2283C,Toko Buah Unyil,Dagang,2
--3.003133,104.764424,Riska Aprilia Putri,2230803097,2283C,Damai Cell,Dagang,1
--3.004542,104.763927,Riska Aprilia Putri,2230803097,2283C,Hidayah Cell,Dagang,1
--3.00507,104.764551,Riska Aprilia Putri,2230803097,2283C,Warung Bik War,Dagang,1
--2.991564,104.785049,Riska Aprilia Putri,2230803097,2283C,Mr.Cuts Barbershop,Jasa,6
--3.005301,104.76345,Riska Aprilia Putri,2230803097,2283C,Cantika Salon Bekam,Jasa,2
--3.005899,104.762884,Riska Aprilia Putri,2230803097,2283C,Bengkel Motor Aam,Jasa,3
--3.007265,104.76427,Riska Aprilia Putri,2230803097,2283C,Salon Ega Lashbeauty,Jasa,2
--3.007287,104.764367,Riska Aprilia Putri,2230803097,2283C,Angga'k D'Barbershop,Jasa,3
--3.007347,104.764968,Riska Aprilia Putri,2230803097,2283C,Family Laundry,Jasa,2
--2.954916,104.748216,Elvisa Dwian,2230803098,2283C,Es Bubur Sum-sum Kang Andi,Kuliner,1
--2.95485,104.748133,Elvisa Dwian,2230803098,2283C,Model Versu,Kuliner,1
--2.954883,104.7481,Elvisa Dwian,2230803098,2283C,Tahu Crispy Mami,Kuliner,1
--2.954933,104.748,Elvisa Dwian,2230803098,2283C,Bengkel Wak Amran,Jasa,1
--2.949616,104.747466,Elvisa Dwian,2230803098,2283C,Minang Raya II,Kuliner,1
--2.948066,104.746783,Elvisa Dwian,2230803098,2283C,Am Impression Barbershop,Jasa,2
--2.94525,104.74555,Elvisa Dwian,2230803098,2283C,Warung Bude TIN,Kuliner,2
--2.943766,104.745566,Elvisa Dwian,2230803098,2283C,Bakso Kito Barokah,Kuliner,2
--2.945533,104.745483,Elvisa Dwian,2230803098,2283C,Sate Madura Romi,Kuliner,2
--2.9427,104.74555,Elvisa Dwian,2230803098,2283C,Pecel Lele Mbak Uti,Kuliner,1
--2.942783,104.745583,Elvisa Dwian,2230803098,2283C,Warung Model Ibu Sur,Kuliner,1
--2.943083,104.745666,Elvisa Dwian,2230803098,2283C,Acira Hijab,Fashion,2
--2.940633,104.743166,Elvisa Dwian,2230803098,2283C,Rajanya Jus,Dagang,2
--2.939716,104.742666,Elvisa Dwian,2230803098,2283C,Tahu Bulat Sukamanah,Kuliner,1
--2.934866,104.735116,Elvisa Dwian,2230803098,2283C,Seblak Mama Tiga Putra,Kuliner,8
--2.56853,104.800149,Muhammad Ariski Saddan,2230803159,2283C,Konter,Dagang,
--2.56945,104.47124,Muhammad Ariski Saddan,2230803159,2283C,Warung Sop buntut,Dagang,
--2.5694,104.47992,Muhammad Ariski Saddan,2230803159,2283C,Kosmetik,Fashion,
--2.57003,104.47932,Muhammad Ariski Saddan,2230803159,2283C,Nasi goreng,Kuliner,
--2.57026,104.47908,Muhammad Ariski Saddan,2230803159,2283C,Konter,Dagang,
--2.57106,104.47811,Muhammad Ariski Saddan,2230803159,2283C,Nasi Padang,Kuliner,
--2.57124,104.47764,Muhammad Ariski Saddan,2230803159,2283C,Konter,Dagang,
--2.57148,104.47693,Muhammad Ariski Saddan,2230803159,2283C,Makanan Kucing,Dagang,
--2.5716,104.47656,Muhammad Ariski Saddan,2230803159,2283C,Warung,Dagang,
--2.57233,104.47381,Muhammad Ariski Saddan,2230803159,2283C,Toko Kerupuk,Dagang,
--2.57241,104.47362,Muhammad Ariski Saddan,2230803159,2283C,Pecel Lele Ayam Bakar Abang Ray,Kuliner,
--2.57257,104.47309,Muhammad Ariski Saddan,2230803159,2283C,Toko Vape,Dagang,
--2.57278,104.47239,Muhammad Ariski Saddan,2230803159,2283C,Martabak Manis,Kuliner,
--2.57377,104.47307,Muhammad Ariski Saddan,2230803159,2283C,Sate Madura,Kuliner,
--2.56902,104.47123,Muhammad Ariski Saddan,2230803159,2283C,Toko Adinda,Kuliner,
--3.027402,104.778548,Nurfa Berlianti,2230803160,2283C,Agen Tempe,Dagang,5
--3.062603,104.818661,Nurfa Berlianti,2230803160,2283C,Toko Sembako,Dagang,3
--2.96175,104.771168,Nurfa Berlianti,2230803160,2283C,Es Teh,Dagang,1
--3.04339,104.785476,Nurfa Berlianti,2230803160,2283C,Model Versi,Kuliner,3
--3.039826,104.78124,Nurfa Berlianti,2230803160,2283C,Sembako Ana,Dagang,3
--3.034201,104.779345,Nurfa Berlianti,2230803160,2283C,Bakso Mugi Berkah,Kuliner,1
--3.06013,104.81713,Nurfa Berlianti,2230803160,2283C,Toko Pakaian ,Fashion,1
--3.060932,104.810187,Nurfa Berlianti,2230803160,2283C,RM Pindang Falih,Kuliner,5
--3.061718,104.819677,Nurfa Berlianti,2230803160,2283C,Toko Sembako Bintang,Dagang,2
--3.062029,104.819558,Nurfa Berlianti,2230803160,2283C,Warung,Dagang,1
--3.060649,104.817658,Nurfa Berlianti,2230803160,2283C,Warung,Dagang,1
--3.04976,104.802161,Nurfa Berlianti,2230803160,2283C,Rumah Makan Pondok Kari,Kuliner,3
--3.048334,104.800739,Nurfa Berlianti,2230803160,2283C,Rumah Makan Mama Ineh,Kuliner,3
--3.035032,104.792664,Nurfa Berlianti,2230803160,2283C,Ayam Gepuk,Kuliner,2
--3.03527,104.793435,Nurfa Berlianti,2230803160,2283C,Restoran Sederhana,Kuliner,6
--3.03653,104.793283,Nurfa Berlianti,2230803160,2283C,Pisang Keju RR,Dagang,1
--3.004159,104.771764,Widiya Srilestari,2230803161,2283C,Avini Buah,Dagang,
--3.004158,104.771766,Widiya Srilestari,2230803161,2283C,Gie Seblak,Kuliner,
--3.001298,104.770353,Widiya Srilestari,2230803161,2283C,Pecel Lele Yuli,Kuliner,
--3.050654,104.803055,Widiya Srilestari,2230803161,2283C,Nasi Padang Rambutan,Kuliner,
--3.498625,104.802518,Widiya Srilestari,2230803161,2283C,Ayam Bakar Mas Ade,Kuliner,
--3.049286,104.802128,Widiya Srilestari,2230803161,2283C,RM Pindang Selapan Bu Susini,Kuliner,
--3.049048,104.801974,Widiya Srilestari,2230803161,2283C,Toko Sembako Rambutan,Dagang,
--3.048663,104.801712,Widiya Srilestari,2230803161,2283C,Sate Ayam Kambing Khas Madura Pak Toga,Kuliner,
--3.04054,104.79628,Widiya Srilestari,2230803161,2283C,Sembako dan Manisan Adelio,Dagang,
--3.040432,104.796412,Widiya Srilestari,2230803161,2283C,Bakso dan Sembako Raden,Kuliner,
--3.002688,104.774207,Widiya Srilestari,2230803161,2283C,Haji dan Umrah Bersama Harmain Tour,Kuliner,
--3.036226,104.793399,Widiya Srilestari,2230803161,2283C,Bakaran Blackpink,Kuliner,
--3.036725,104.793706,Widiya Srilestari,2230803161,2283C,Pecel Lele Nasi Goreng,Kuliner,
--3.037175,104.793999,Widiya Srilestari,2230803161,2283C,Buah Segar Hermina,Dagang,
--3.037728,104.794392,Widiya Srilestari,2230803161,2283C,Toko Durian,Dagang,
--2.962492,104.7208604,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Toko Plastik dan Bahan Kue Mustanir,Dagang,3
--2.96025,104.71878,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Junaidi Penjahit,Jasa,1
--2.9612558,104.7187818,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Bengkel Las Saudara Jaya,Jasa,5
--2.96106,104.71871,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Warung Sayur Neli,Dagang,2
--2.9599864,104.7209449,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Warung Nasi Goreng Pakde Jaka,Kuliner,2
--2.9539881,104.7327262,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Adnan Penjahit,Jasa,1
--2.9560797,104.7273609,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,wiishop collection,Fashion,3
--2.9668,104.71682,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Cayoca Collection,Fashion,3
--2.96094,104.71865,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Toko Sembako Tina,Dagang,3
--2.96229,104.72149,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Pangkas Rambut Serasi,Jasa,2
--2.96254,104.71993,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Service HP MM,Jasa,2
--2.95581,104.72759,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Pondok Dogan Kurnia,Dagang,5
--2.96243,104.71977,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Warung Sayur Mang Hasan,Dagang,3
--2.96102,104.71657,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Toko Sembako Ivan,Dagang,5
--2.962597,104.719067,Muhammad Rifqi Thoohaa Anas,2210803009,2283C,Angkringan dan Pecel Lele SAS,Kuliner,2
+latitude	longitude	nama	nim	kelas	umkm	kategori	jlhpegawai
+-2.98144	104.75664	Muhammad Akbar Pratama	2210803001	2283C	Sparepart Mobil Permai Jaya	Dagang	4
+-2.9563	104.72595	Muhammad Akbar Pratama	2210803001	2283C	Jruk Peras Royal 01	Kuliner	1
+-2.91312	104.69043	Muhammad Akbar Pratama	2210803001	2283C	Sambal Seruit Bu El	Kuliner	3
+-2.91316	104.69047	Muhammad Akbar Pratama	2210803001	2283C	Toko Bahan Kue Lucky	Dagang	3
+-2.91333	104.69115	Muhammad Akbar Pratama	2210803001	2283C	Bakso Jomblo	Kuliner	4
+-2.9133	104.69139	Muhammad Akbar Pratama	2210803001	2283C	Roti Bakar Iyan 12	Kuliner	2
+-2.91322	104.69128	Muhammad Akbar Pratama	2210803001	2283C	Pondok Ayam Bakar & Bakso H.M Tarjo	Kuliner	6
+-2.91326	104.69125	Muhammad Akbar Pratama	2210803001	2283C	Martabak Hartop Samiroso	Kuliner	4
+-2.913262	104.69116	Muhammad Akbar Pratama	2210803001	2283C	Sarapan Pagi Barokah	Kuliner	2
+-2.91327	104.69098	Muhammad Akbar Pratama	2210803001	2283C	Pangkas Rambut Famili 2	Jasa	1
+-2.913271	104.69094	Muhammad Akbar Pratama	2210803001	2283C	Kerupuk Tiga Mutiara	Dagang	1
+-2.9133	104.69084	Muhammad Akbar Pratama	2210803001	2283C	Toko Lampu Sumber Terang	Dagang	1
+-2.91328	104.69079	Muhammad Akbar Pratama	2210803001	2283C	Toko tani maju	Dagang	2
+-2.91325	104.69069	Muhammad Akbar Pratama	2210803001	2283C	Salon Vivin	Jasa	1
+-2.9133	104.69066	Muhammad Akbar Pratama	2210803001	2283C	Radenmart	Dagang	4
+-2.99851	104.77674	Giri Syawega	2210803005	2283C	Arifini Fried Chiken	Kuliner	2
+-3.05003	104.78452	Giri Syawega	2210803005	2283C	Pisang Karamel	Kuliner	1
+-3.05001	104.784527	Giri Syawega	2210803005	2283C	Roti Jhon	Kuliner	1
+-3.05003	104.78455	Giri Syawega	2210803005	2283C	Angkringan Wandi	Kuliner	1
+-2.99544	104.77838	Giri Syawega	2210803005	2283C	Sarapan Pagi Bu Ida	Kuliner	2
+-2.9976	104.78272	Giri Syawega	2210803005	2283C	Ayam Geprek	Kuliner	4
+-2.99912	104.77749	Muhammad Afif Nafidz	2220803020	2283C	Ayam Bakar Saung Kenangan	Kuliner	3
+-3.00081	104.77921	Muhammad Afif Nafidz	2220803020	2283C	Toko Niko	Dagang	1
+-3.00057	104.77879	Muhammad Afif Nafidz	2220803020	2283C	Fotocopy Arsya X Galery Net	Jasa	1
+-2.99691	104.77612	Muhammad Afif Nafidz	2220803020	2283C	Tnt Partyshop	Dagang	2
+-2.9999	104.7779	Muhammad Afif Nafidz	2220803020	2283C	Toko Pandan Agung Wangi	Dagang	1
+-2.99546	104.77855	Muhammad Afif Nafidz	2220803020	2283C	Sultan Badjoe Thrift Brand	Dagang	1
+-2.99538	104.77825	Muhammad Afif Nafidz	2220803020	2283C	Pratama Cell	Dagang	3
+-2.99597	104.77958	Muhammad Afif Nafidz	2220803020	2283C	Reno'S Barber	Jasa	3
+-2.99629	104.78035	Muhammad Afif Nafidz	2220803020	2283C	Letta Shop	Dagang	2
+-2.99804	104.78209	Muhammad Afif Nafidz	2220803020	2283C	Gunting Rambut Pria Mulyadi Fans	Jasa	1
+-3.00038	104.77856	Muhammad Afif Nafidz	2220803020	2283C	Rumah Makan Bang Zulfan	Kuliner	3
+-2.99998	104.77812	Muhammad Afif Nafidz	2220803020	2283C	Cristal Clean Laundry	Jasa	2
+-2.99873	104.7771	Muhammad Afif Nafidz	2220803020	2283C	Metal Net	Jasa	2
+-3.00009	104.77831	Muhammad Afif Nafidz	2220803020	2283C	Bengkel Motor Rasya 2	Jasa	4
+-2.99907	104.77723	Muhammad Afif Nafidz	2220803020	2283C	Nila Pet Shop	Dagang	3
+-3.2936	104.83166	Ronal Yudiarta	2220803022	2283C	Bengkel Motor Effendi	Jasa	2
+-3.29333	104.83229	Ronal Yudiarta	2220803022	2283C	Warung Manik	Dagang	1
+-3.29248	104.8337	Ronal Yudiarta	2220803022	2283C	Warung Erik	Dagang	2
+-3.40314	104.82452	Ronal Yudiarta	2220803022	2283C	Bakso Anin	Kuliner	4
+-3.29284	104.83296	Ronal Yudiarta	2220803022	2283C	Penjahit Elly	Jasa	1
+-3.29463	104.83142	Ronal Yudiarta	2220803022	2283C	Warung Paisal	Dagang	1
+-3.29666	104.8319	Ronal Yudiarta	2220803022	2283C	Warung Perlengkapan Gendut	Dagang	2
+-3.29578	104.83646	Ronal Yudiarta	2220803022	2283C	Yoga Cell	Agribisnis	2
+-3.29539	104.83814	Ronal Yudiarta	2220803022	2283C	Mie Ayam Kanadar	Kuliner	1
+-3.29424	104.83149	Ronal Yudiarta	2220803022	2283C	Bengkel Mobil Kasim	Jasa	4
+-3.29683	104.83151	Ronal Yudiarta	2220803022	2283C	Dading Cell	Agribisnis	1
+-3.28541	104.87626	Ronal Yudiarta	2220803022	2283C	Barbershop Jho	Jasa	2
+-2.902255	104.672387	Muhammad Iqbal	2220803033	2283C	Linda Cell	Dagang	2
+-2.902191	104.672474	Muhammad Iqbal	2220803033	2283C	Martabak Telur Mas Teguh	Kuliner	4
+-2.902191	104.672474	Muhammad Iqbal	2220803033	2283C	Toko Sembako Pak Herman	Dagang	2
+-2.901334	104.67399	Muhammad Iqbal	2220803033	2283C	Mie Ayam Bakso Wonogiri Kharisma	Kuliner	3
+-2.90081	104.674587	Muhammad Iqbal	2220803033	2283C	Bengkel Glory Motor	Jasa	2
+-2.894017	104.680137	Muhammad Iqbal	2220803033	2283C	Toko 2 Putra	Dagang	2
+-2.903094	104.672562	Muhammad Iqbal	2220803033	2283C	RM Piaman Jaya	Kuliner	4
+-2.906448	104.668362	Muhammad Iqbal	2220803033	2283C	Model Tekwan Wak Las	Kuliner	4
+-2.901833	104.673534	Muhammad Iqbal	2220803033	2283C	Toko Affam	Dagang	2
+-2.905029	104.67006	Muhammad Iqbal	2220803033	2283C	Toko Listrik & Bangunan Cahaya Jaya	Dagang	3
+-2.9027	104.673043	Muhammad Iqbal	2220803033	2283C	Toko Sri	Dagang	5
+-2.898909	104.676185	Muhammad Iqbal	2220803033	2283C	Lala Jati Furniture	Dagang	2
+-2.895544	104.678832	Muhammad Iqbal	2220803033	2283C	Toko Baby Halid	Dagang	3
+-2.903985	104.671327	Muhammad Iqbal	2220803033	2283C	Pecel Lele Ayam Bakar Abang Ray	Kuliner	3
+-2.911474	104.662139	Muhammad Iqbal	2220803033	2283C	Sila Putri Jati	Dagang	5
+-3.04986	104.82882	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.04097	104.83354	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03622	104.83656	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03622	104.83656	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03431	104.83585	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03084	104.83434	Maiko Aprianto	2220803035	2283C	Toko Bangunan	Dagang	
+-3.02723	104.83281	Maiko Aprianto	2220803035	2283C	Fashion	Fashion	
+-3.02859	104.83352	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.0294	104.83394	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.0307	104.8344	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03405	104.83588	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03789	104.83768	Maiko Aprianto	2220803035	2283C	Gado-Gado	Kuliner	
+-3.03866	104.8382	Maiko Aprianto	2220803035	2283C	Kuliner	Dagang	
+-3.03867	104.83819	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03888	104.83828	Maiko Aprianto	2220803035	2283C	Warung	Dagang	
+-3.03911	104.83852	Maiko Aprianto	2220803035	2283C	Galon	Dagang	
+-2.955125	104.786389	Erlin Lilis	2220803041	2283B	Es Cendol Klaten Gula Aren	Kuliner	2
+-2.962922	104.784965	Erlin Lilis	2220803041	2283B	Tekwan Depan Pos Indonesia Sekojo	Kuliner	1
+-2.958484	104.783448	Erlin Lilis	2220803041	2283B	Warung Bakso Sekojo	Kuliner	2
+-2.959099	104.788221	Erlin Lilis	2220803041	2283B	Bakso Om Boma	Kuliner	2
+-2.955398	104.757226	Erlin Lilis	2220803041	2283B	Laundry Express	Jasa	2
+-2.958801	104.783497	Erlin Lilis	2220803041	2283B	Laudnry Griya Sekojo	Jasa	3
+-2.949906	104.797734	Erlin Lilis	2220803041	2283B	AA Laundry Cabang Sekojo	Jasa	2
+-2.957961	104.80792	Erlin Lilis	2220803041	2283B	Livecut BarberShop	Jasa	1
+-2.939027	104.778673	Erlin Lilis	2220803041	2283B	Dyana Laundry	Jasa	2
+-2.971278	104.75324	Erlin Lilis	2220803041	2283B	Nasi Goreng Mas Min	Kuliner	2
+-2.976906	104.754404	Erlin Lilis	2220803041	2283B	Kedai Hoki 888	Kuliner	3
+-2.952321	104.786883	Erlin Lilis	2220803041	2283B	Salon Nur	Jasa	2
+-2.969547	104.80596	Erlin Lilis	2220803041	2283B	Nona Ngemil	Kuliner	5
+-2.957525	104.795047	Erlin Lilis	2220803041	2283B	Seblak Kania	Kuliner	4
+-2.95756	104.79627	Erlin Lilis	2220803041	2283B	BIN Laundry	Jasa	2
+-3.00367	104.76429	Silva Melvina	2220803045	2283C	Pisang Karamel Tahu Hot Jeletot	Kuliner	1
+-3.072428	104.764253	Silva Melvina	2220803045	2283C	D'limau	Kuliner	1
+-3.007212	104.763825	Silva Melvina	2220803045	2283C	Es Jagung Ice Cream Onee	Kuliner	1
+-3.008459	104.766598	Silva Melvina	2220803045	2283C	Martabak Bangka AA	Kuliner	1
+-3.002963	104.770956	Silva Melvina	2220803045	2283C	Pecel Lele Ipado	Kuliner	2
+-3.002067	104.770229	Silva Melvina	2220803045	2283C	Preloved Paradise	Fashion	2
+-2.998699	104.770971	Silva Melvina	2220803045	2283C	Nila Petshop	Dagang	1
+-2.996678	104.774862	Silva Melvina	2220803045	2283C	Dimsum Mentai Lea	Kuliner	1
+-2.994581	104.779911	Silva Melvina	2220803045	2283C	Pecel Lele & Seafood Saqil	Kuliner	3
+-2.992849	104.782199	Silva Melvina	2220803045	2283C	Pempek Sentosa	Kuliner	5
+-2.991269	104.785323	Silva Melvina	2220803045	2283C	Seafood & Pecel Lele 99 H.Syam	Kuliner	4
+-2.997227	104.784019	Silva Melvina	2220803045	2283C	Global Cell	Dagang	1
+-2.997989	104.783313	Silva Melvina	2220803045	2283C	Barbershop Balbox	Jasa	1
+-2.996515	104.780789	Silva Melvina	2220803045	2283C	I-dea Laundry	Jasa	4
+-2.996318	104.780539	Silva Melvina	2220803045	2283C	Hilya Laundry	Jasa	4
+-2.98085	104.76436	M Dwi Afdhol	2220803047	2283C	Angkringan Bang Jo	Kuliner	3
+-3.12782	104.79937	Rossi Oktavianti	2220803052	2283C	Kemplang Asrania	Kuliner	3
+-3.12815	104.79945	Rossi Oktavianti	2220803052	2283C	Kemplang M.Arif	Kuliner	2
+-3.1192	104.7815	Rossi Oktavianti	2220803052	2283C	Toko Serba Ada Pemulutan Ilir	Dagang	2
+-3.1189	104.782	Rossi Oktavianti	2220803052	2283C	Warung Makan Sederhana	Kuliner	3
+-3.1185	104.7808	Rossi Oktavianti	2220803052	2283C	Sembako Makmur Jaya	Dagang	2
+-3.1187	104.7802	Rossi Oktavianti	2220803052	2283C	Depot Air Minum Isi Ulang	Dagang	1
+-3.1183	104.781	Rossi Oktavianti	2220803052	2283C	Kedai Kopi Pemulutan Ilir	Kuliner	2
+-3.119	104.7813	Rossi Oktavianti	2220803052	2283C	Toko Pakaian Pemulutan Ilir	Fashion	1
+-3.1188	104.7822	Rossi Oktavianti	2220803052	2283C	Bengkel Motor Darma Jaya	Jasa	2
+-3.1186	104.7817	Rossi Oktavianti	2220803052	2283C	Warung Bakso & Mie Ayam	Kuliner	2
+-3.1193	104.7818	Rossi Oktavianti	2220803052	2283C	Kerajinan Tangan Rumahan	Jasa	1
+-3.1191	104.7816	Rossi Oktavianti	2220803052	2283C	Usaha Kue Tradisional	Kuliner	2
+-3.1194	104.7819	Rossi Oktavianti	2220803052	2283C	UMKM Sabun Rumahan	Dagang	1
+-3.1189	104.7812	Rossi Oktavianti	2220803052	2283C	Usaha Potong Rambut	Jasa	1
+-3.1187	104.7809	Rossi Oktavianti	2220803052	2283C	Toko Elektronik Kecil	Dagang	2
+-3.1195	104.7811	Rossi Oktavianti	2220803052	2283C	Usaha Jahit & Konveksi	Jasa	2
+-2.96202	104.7562	Owen Saputra	2220803053	2283C	Pempek Palembang Asli	Kuliner	2
+-2.9621	104.75613	Owen Saputra	2220803053	2283C	Ayam Bakar Madu 6900	Kuliner	1
+-2.96215	104.75535	Owen Saputra	2220803053	2283C	Kaki Langit	Kuliner	2
+-2.96218	104.7548	Owen Saputra	2220803053	2283C	Warung Nasi Nyai Rahma	Kuliner	1
+-2.96224	104.75438	Owen Saputra	2220803053	2283C	Toko Jaya Wijaya	Dagang	1
+-2.96208	104.75333	Owen Saputra	2220803053	2283C	Toko Sembako Bu Nini	Dagang	2
+-2.96148	104.75313	Owen Saputra	2220803053	2283C	Papa Laundry	Jasa	2
+-2.96058	104.75344	Owen Saputra	2220803053	2283C	Warung Makan Upik	Kuliner	1
+-2.96102	104.75334	Owen Saputra	2220803053	2283C	Warung Nasi Bude Rahmat	Kuliner	1
+-2.96218	104.75217	Owen Saputra	2220803053	2283C	Pondok Dogan Bunda	Kuliner	1
+-2.96295	104.75181	Owen Saputra	2220803053	2283C	Mawar Laundry	Jasa	2
+-2.96392	104.75036	Owen Saputra	2220803053	2283C	Es Teh & Es Jeruk Davani	Kuliner	1
+-2.96567	104.75372	Owen Saputra	2220803053	2283C	Toko Leody	Dagang	1
+-2.96446	104.75398	Owen Saputra	2220803053	2283C	Toko Alan	Dagang	1
+-2.96359	104.7536	Owen Saputra	2220803053	2283C	Abang Laundry	Jasa	1
+-3.00417	104.77182	Nia Saka Lena	2220803054	2283C	Avini Buah	Dagang	2
+-3.00409	104.77171	Nia Saka Lena	2220803054	2283C	Angkringan K7	Kuliner	4
+-3.00394	104.77164	Nia Saka Lena	2220803054	2283C	Gie Seblak	Kuliner	3
+-3.00389	104.77161	Nia Saka Lena	2220803054	2283C	Laundry Express 2 jam*	Jasa	4
+-3.00269	104.7708	Nia Saka Lena	2220803054	2283C	Akbar Cell	Dagang	4
+-3.00263	104.77076	Nia Saka Lena	2220803054	2283C	Penjahit Arrahman	Jasa	2
+-3.00238	104.77057	Nia Saka Lena	2220803054	2283C	Wiwin Kebaya	Jasa	1
+-3.00187	104.77021	Nia Saka Lena	2220803054	2283C	Paris Variasi Car Accessories & Cover Jok	Dagang	5
+-3.00102	104.77003	Nia Saka Lena	2220803054	2283C	Anggun Salon/Babershop	Jasa	2
+-3.00119	104.77015	Nia Saka Lena	2220803054	2283C	Warung Kak Dedek	Dagang	1
+-3.00123	104.77019	Nia Saka Lena	2220803054	2283C	Toko Chandra	Dagang	1
+-3.00264	104.77125	Nia Saka Lena	2220803054	2283C	Warung Makan Uli	Kuliner	2
+-3.00278	104.77113	Nia Saka Lena	2220803054	2283C	Jajanan Nuhaa	Kuliner	2
+-3.00282	104.77119	Nia Saka Lena	2220803054	2283C	Bengkel Warung Berkat Ibu	Jasa	3
+-3.00447	104.77232	Nia Saka Lena	2220803054	2283C	Percetakan Indomedia	Jasa	7
+-2.98051	104.74721	Putri Delarani Azzahra	2220803056	2283C	Warung Bakso Solo Pak Min	Kuliner	5
+-2.98023	104.74703	Putri Delarani Azzahra	2220803056	2283C	Sate Madura Cak Udin	Kuliner	4
+-2.98112	104.74688	Putri Delarani Azzahra	2220803056	2283C	Martabak Bangka	Kuliner	3
+-2.97994	104.74745	Putri Delarani Azzahra	2220803056	2283C	Ayam Geprek Master	Kuliner	6
+-2.98078	104.7477	Putri Delarani Azzahra	2220803056	2283C	Warung Nasi Uduk Bu Yanti	Dagang	4
+-2.98195	104.74652	Putri Delarani Azzahra	2220803056	2283C	Toko Kelontong Berkah	Dagang	2
+-2.9823	104.74631	Putri Delarani Azzahra	2220803056	2283C	Laundry Angkatan Clean & Fresh	Jasa	3
+-2.98272	104.74792	Putri Delarani Azzahra	2220803056	2283C	Barbershop Gentlemen	Jasa	3
+-2.98298	104.74726	Putri Delarani Azzahra	2220803056	2283C	Salon Ratu Cantik	Jasa	3
+-2.9816	104.74783	Putri Delarani Azzahra	2220803056	2283C	Kedai Kopi Warkop	Kuliner	4
+-2.98242	104.74678	Putri Delarani Azzahra	2220803056	2283C	Apotek Angkatan 66	Dagang	3
+-2.98183	104.74734	Putri Delarani Azzahra	2220803056	2283C	Kantin Bu Ani	Kuliner	2
+-2.98099	104.74812	Putri Delarani Azzahra	2220803056	2283C	Warung Mie Ayam & Bakso Mang Suyat	Kuliner	4
+-2.98215	104.74695	Putri Delarani Azzahra	2220803056	2283C	Toko Sembako Makmur Jaya	Kuliner	2
+-2.98131	104.74764	Putri Delarani Azzahra	2220803056	2283C	Toko Roti & Kue Family	Kuliner	3
+-2.97645	104.74689	Fatimah Azzahra	2220803065	2283C	Warung Pempek Mang Apud	Kuliner	3
+-2.97688	104.74732	Fatimah Azzahra	2220803065	2283C	Pempek Ny Rahayu	Kuliner	2
+-2.97712	104.74712	Fatimah Azzahra	2220803065	2283C	Pempek Gaby	Kuliner	2
+-2.9762	104.74645	Fatimah Azzahra	2220803065	2283C	RM Pindang Meranjat Sekip	Kuliner	5
+-2.97584	104.74685	Fatimah Azzahra	2220803065	2283C	Ayam Goreng Pak Ujang	Kuliner	3
+-2.97754	104.74772	Fatimah Azzahra	2220803065	2283C	Sate Madura H.Husen	Kuliner	3
+-2.97802	104.74796	Fatimah Azzahra	2220803065	2283C	Bakso Pak Slamet	Kuliner	2
+-2.97732	104.74698	Fatimah Azzahra	2220803065	2283C	Kedai Kopi Sekip Corner	Kuliner	3
+-2.97765	104.74754	Fatimah Azzahra	2220803065	2283C	Teh Tarik & Juice Bar Sekip	Kuliner	2
+-2.97695	104.74665	Fatimah Azzahra	2220803065	2283C	Martabak King	Kuliner	2
+-2.97631	104.74631	Fatimah Azzahra	2220803065	2283C	Toko Roti & Kue Sekip	Kuliner	4
+-2.97843	104.74723	Fatimah Azzahra	2220803065	2283C	Warung Mie Ayam Ceker Sekip	Kuliner	3
+-2.97814	104.74788	Fatimah Azzahra	2220803065	2283C	Warung Sop Iga Sekip	Kuliner	3
+-2.979	104.74611	Fatimah Azzahra	2220803065	2283C	Toko Kelontong Sekip Jaya	Dagang	2
+-2.97925	104.74598	Fatimah Azzahra	2220803065	2283C	Laundry Sekip Clean	Jasa	3
+-2.97872	104.74704	Fatimah Azzahra	2220803065	2283C	Salon Pak Arif	Jasa	3
+-2.97895	104.74721	Fatimah Azzahra	2220803065	2283C	Salon Cantik Sekip	Jasa	3
+-2.97944	104.74672	Fatimah Azzahra	2220803065	2283C	Barbershop Sekip Fresh	Jasa	3
+-2.97982	104.74635	Fatimah Azzahra	2220803065	2283C	Toko Handphone & Aksesoris Sekip	Dagang	2
+-2.97861	104.74758	Fatimah Azzahra	2220803065	2283C	Toko Sembako Makmur Sekip	Dagang	2
+-2.98005	104.74592	Fatimah Azzahra	2220803065	2283C	Warung Nasi Uduk Hj. Siti	Kuliner	2
+-2.97821	104.74786	Fatimah Azzahra	2220803065	2283C	Bengkel Motor Sekip Mandiri	Jasa	3
+-2.97833	104.7471	Fatimah Azzahra	2220803065	2283C	Percetakan Print Sekip	Jasa	3
+-2.97874	104.74745	Fatimah Azzahra	2220803065	2283C	Toko ATK Sekip Stationer	Dagang	2
+-2.98035	104.74628	Fatimah Azzahra	2220803065	2283C	Warung Jajan Goreng Sekip	Kuliner	1
+-3.02451	104.77251	Muhammad Alfa'aiz Ilham	2220803067	2283C	Pempek Candy OPI	Kuliner	6
+-3.02482	104.77296	Muhammad Alfa'aiz Ilham	2220803067	2283C	Pempek Panggang OPI	Kuliner	4
+-3.02513	104.77188	Muhammad Alfa'aiz Ilham	2220803067	2283C	Warung Bakso Mas Joko	Kuliner	5
+-3.02396	104.77243	Muhammad Alfa'aiz Ilham	2220803067	2283C	Ayam Geprek Bensu OPI	Kuliner	7
+-3.02275	104.77322	Muhammad Alfa'aiz Ilham	2220803067	2283C	Sambel Ulek Bakar	Kuliner	3
+-3.02251	104.77351	Muhammad Alfa'aiz Ilham	2220803067	2283C	Mie Ayam OPI	Kuliner	5
+-3.02235	104.77398	Muhammad Alfa'aiz Ilham	2220803067	2283C	Dimsum OPI	Kuliner	2
+-3.02298	104.77421	Muhammad Alfa'aiz Ilham	2220803067	2283C	Es Teler 77 OPI Mall	Kuliner	7
+-3.02341	104.77475	Muhammad Alfa'aiz Ilham	2220803067	2283C	Crepes enak OPI Mall	Kuliner	2
+-3.02423	104.77413	Muhammad Alfa'aiz Ilham	2220803067	2283C	BreadTalk OPI	Kuliner	8
+-3.02542	104.77282	Muhammad Alfa'aiz Ilham	2220803067	2283C	Kedai Kopi Warkop OPI	Kuliner	4
+-3.02611	104.77166	Muhammad Alfa'aiz Ilham	2220803067	2283C	Warung Sate Madura Pak Iwan	Kuliner	5
+-3.02652	104.77133	Muhammad Alfa'aiz Ilham	2220803067	2283C	Martabak Bangka 77 OPI	Kuliner	4
+-3.02733	104.77098	Muhammad Alfa'aiz Ilham	2220803067	2283C	Warung Tekwan Selera Kita	Kuliner	4
+-3.02781	104.77056	Muhammad Alfa'aiz Ilham	2220803067	2283C	Kedai Mie Ayam Pak Kumis	Kuliner	5
+-3.02569	104.76989	Muhammad Alfa'aiz Ilham	2220803067	2283C	Toko Kelontong OPI	Kuliner	3
+-3.02594	104.77033	Muhammad Alfa'aiz Ilham	2220803067	2283C	Alfamart OPI Raya	Dagang	6
+-3.02633	104.77114	Muhammad Alfa'aiz Ilham	2220803067	2283C	Indomaret OPI Raya	Dagang	6
+-3.02756	104.76892	Muhammad Alfa'aiz Ilham	2220803067	2283C	Laundry OPI Clean & Fresh	Dagang	3
+-3.02793	104.76853	Muhammad Alfa'aiz Ilham	2220803067	2283C	Barbershop OPI Style	Jasa	3
+-3.02722	104.76875	Muhammad Alfa'aiz Ilham	2220803067	2283C	Salon OPI Cantik	Jasa	4
+-3.02688	104.76943	Muhammad Alfa'aiz Ilham	2220803067	2283C	Toko Aksesoris Fashion OPI	Jasa	2
+-3.02525	104.77098	Muhammad Alfa'aiz Ilham	2220803067	2283C	Apotek OPI Farma	Dagang	5
+-3.02652	104.76962	Muhammad Alfa'aiz Ilham	2220803067	2283C	Toko Sembako Berkah OPI	Kuliner	3
+-3.02499	104.77174	Muhammad Alfa'aiz Ilham	2220803067	2283C	Kedai Jus Sehat OPI	Kuliner	4
+-3.35682	104.83245	Eka Maisito	2220803068	2283C	Pempek Ema Mulyadi	Kuliner	4
+-3.35741	104.83312	Eka Maisito	2220803068	2283C	Pempek 24 ILIR	Kuliner	5
+-3.35596	104.83402	Eka Maisito	2220803068	2283C	Pempek AYU	Kuliner	3
+-3.35633	104.83278	Eka Maisito	2220803068	2283C	Pempek Julie	Kuliner	3
+-3.35788	104.83196	Eka Maisito	2220803068	2283C	Pempek Pak Dien	Kuliner	4
+-3.35492	104.83354	Eka Maisito	2220803068	2283C	Toko Pempek Memories	Kuliner	6
+-3.35531	104.83411	Eka Maisito	2220803068	2283C	Pempek Imey	Kuliner	3
+-3.35674	104.83172	Eka Maisito	2220803068	2283C	Toko Kue dan Pempek Melati	Kuliner	4
+-3.35726	104.83295	Eka Maisito	2220803068	2283C	Warung Wak Sur (RomaDeal Pempek)	Kuliner	5
+-3.35605	104.83368	Eka Maisito	2220803068	2283C	Warung Pempek Bu Ningsih 29	Kuliner	4
+-3.35577	104.83231	Eka Maisito	2220803068	2283C	Warung Pempek Kayla	Kuliner	3
+-3.35499	104.83429	Eka Maisito	2220803068	2283C	Warung Pempek Yanti	Kuliner	3
+-3.35769	104.83288	Eka Maisito	2220803068	2283C	Pondok Pempek Online	Kuliner	2
+-3.35552	104.83376	Eka Maisito	2220803068	2283C	Pempek Aloy Beguyur	Kuliner	4
+-3.35618	104.8326	Eka Maisito	2220803068	2283C	Pempek & Mie Pangsit Putra Remaja	Kuliner	6
+-3.35794	104.83185	Eka Maisito	2220803068	2283C	Warung Pempek Iwan Amir	Kuliner	3
+-3.35821	104.83402	Eka Maisito	2220803068	2283C	RM Sederhana Kayuagung	Kuliner	8
+-3.35668	104.83341	Eka Maisito	2220803068	2283C	Rumah Makan Bakul Saji Kayuagung	Kuliner	7
+-3.35543	104.83217	Eka Maisito	2220803068	2283C	Rumah Makan Pagi Sore Kayu Agung	Kuliner	10
+-3.35691	104.83393	Eka Maisito	2220803068	2283C	Rumah Makan Syafik	Kuliner	5
+-3.35712	104.83425	Eka Maisito	2220803068	2283C	RM Pondok Indah Pindang Salai	Kuliner	7
+-3.35753	104.83305	Eka Maisito	2220803068	2283C	RM Pindang Kayu Agung	Kuliner	6
+-3.35627	104.83242	Eka Maisito	2220803068	2283C	Rumah Makan Sari Rasa	Kuliner	8
+-3.35584	104.83377	Eka Maisito	2220803068	2283C	Toko Pempek Ebi	Kuliner	3
+-3.35649	104.83294	Eka Maisito	2220803068	2283C	Pempek Selera Kita Kayuagung	Kuliner	4
+-2.97603	104.69623	Muhammad Rivan	2220803070	2283C	Mandiri Sukses Fotocopy	Jasa	1
+-2.98097	104.70356	Muhammad Rivan	2220803070	2283C	Ayyassy Frozen Mart	Dagang	1
+-2.98047	104.70299	Muhammad Rivan	2220803070	2283C	D'Barbehshop	Jasa	3
+-2.98144	104.70884	Muhammad Rivan	2220803070	2283C	Donat Kentang Kawan Mamak	Kuliner	3
+-2.98251	104.71163	Muhammad Rivan	2220803070	2283C	Kerupuk & Kemplang Yam-Yam	Kuliner	1
+-2.98164	104.70384	Muhammad Rivan	2220803070	2283C	Naomy Laundry	Jasa	2
+-2.9819	104.7048	Muhammad Rivan	2220803070	2283C	Pempek Buk Min	Kuliner	2
+-2.98172	104.7063	Muhammad Rivan	2220803070	2283C	Pupu Pet Shop	Dagang	1
+-2.98111	104.71553	Muhammad Rivan	2220803070	2283C	Rumah Makan Bungo Tanjung	Kuliner	2
+-2.98163	104.70776	Muhammad Rivan	2220803070	2283C	Rumah Makan Ridho	Kuliner	3
+-2.98191	104.70563	Muhammad Rivan	2220803070	2283C	Sampono Perfumery	Dagang	1
+-2.97579	104.69596	Muhammad Rivan	2220803070	2283C	Seblak Prasmanan Mama Al	Kuliner	3
+-2.98009	104.70227	Muhammad Rivan	2220803070	2283C	Steam Motor Arashi	Jasa	3
+-2.98233	104.71228	Muhammad Rivan	2220803070	2283C	Toko Kosmetik Diwi	Dagang	1
+-2.97579	104.69596	Muhammad Rivan	2220803070	2283C	Yasaka Fried Chicken	Kuliner	1
+-3.00948	104.69239	Rendy Al Benz	2220803077	2283C	RN Cell	Dagang	6
+-3.00655	104.69146	Rendy Al Benz	2220803077	2283C	Warung Sate Devi	Dagang	2
+-3.004741	104.690923	Rendy Al Benz	2220803077	2283C	Pempek Cek Inten	Dagang	2
+-3.00684	104.69149	Rendy Al Benz	2220803077	2283C	Pondok Spesialias Es Bang Al	Dagang	1
+-3.015176	104.693405	Rendy Al Benz	2220803077	2283C	Sate Madura Ura	Dagang	2
+-3.042395	104.720819	Rendy Al Benz	2220803077	2283C	Warung Dwi Putri	Dagang	1
+-3.042664	104.714223	Rendy Al Benz	2220803077	2283C	Rumah Makan Pindang Nony	Dagang	3
+-3.042593	104.715252	Rendy Al Benz	2220803077	2283C	Pecel Lele Aisyah	Dagang	2
+-3.027144	104.776381	Rendy Al Benz	2220803077	2283C	Toko Hemat	Dagang	1
+-3.0066	104.69142	Rendy Al Benz	2220803077	2283C	RM Puncak Jaya	Dagang	3
+-3.044599	104.70875	Rendy Al Benz	2220803077	2283C	Warung Zahra	Dagang	1
+-3.047655	104.710528	Rendy Al Benz	2220803077	2283C	Dinda	Dagang	1
+-3.042368	104.719678	Rendy Al Benz	2220803077	2283C	Kedai Razor	Dagang	1
+-2.994368	104.745626	M.Rafi Ramadhan	2220803080	2283C	RM Keluarga	Kuliner	6
+-3.001351	104.742006	M.Rafi Ramadhan	2220803080	2283C	RGK Cuci Motor	Jasa	5
+-3.002645	104.745944	M.Rafi Ramadhan	2220803080	2283C	RJMS Bengkel Sepeda Motor	Jasa	3
+-3.001387	104.742276	M.Rafi Ramadhan	2220803080	2283C	Bakso dan Mie Ayam Mas Ber"	Kuliner	2
+-3.001689	104.740993	M.Rafi Ramadhan	2220803080	2283C	AL Cell	Dagang	2
+-3.002266	104.738851	M.Rafi Ramadhan	2220803080	2283C	Es Teh K-Wan	Kuliner	1
+-3.002463	104.737692	M.Rafi Ramadhan	2220803080	2283C	Pecel Lele Bikle Seafood	Kuliner	3
+-3.002518	104.737387	M.Rafi Ramadhan	2220803080	2283C	Zakia Parfum	Dagang	1
+-3.002589	104.736879	M.Rafi Ramadhan	2220803080	2283C	D'Barbershop	Jasa	3
+-3.002876	104.736402	M.Rafi Ramadhan	2220803080	2283C	Abi Cellular	Dagang	2
+-3.004463	104.735126	M.Rafi Ramadhan	2220803080	2283C	WS Parfume	Dagang	2
+-3.002079	104.73967	M.Rafi Ramadhan	2220803080	2283C	Martabak D'Chandra	Kuliner	1
+-3.001959	104.740108	M.Rafi Ramadhan	2220803080	2283C	Yhankee Reklame dan Percetakan	Dagang	2
+-3.001642	104.741273	M.Rafi Ramadhan	2220803080	2283C	Pecel Lele dan Seafood Jhon Kumis	Kuliner	3
+-3.001498	104.741863	M.Rafi Ramadhan	2220803080	2283C	Rumah Makan Samudra Indah	Kuliner	1
+-3.001454	104.742081	M.Rafi Ramadhan	2220803080	2283C	Dimsum Sultan	Kuliner	1
+-2.94051	104.68753	Erdi Gunawan Putra	2220803082	2283C	D' Second palembang	Fashion	3
+-2.94058	104.68748	Erdi Gunawan Putra	2220803082	2283C	Mifta Menjahit	Jasa	1
+-2.94066	104.68736	Erdi Gunawan Putra	2220803082	2283C	Pondok Pempek Ramadhan	Kuliner	2
+-2.94083	104.68705	Erdi Gunawan Putra	2220803082	2283C	Warung Bakso Pak Bagong	Kuliner	4
+-2.94047	104.686702	Erdi Gunawan Putra	2220803082	2283C	Warung Pempek Tante Emi	Kuliner	1
+-2.94071	104.68694	Erdi Gunawan Putra	2220803082	2283C	Rumah Pakan HK	Dagang	2
+-2.94099	104.68765	Erdi Gunawan Putra	2220803082	2283C	Warung Pempek Ombay	Kuliner	1
+-2.94186	104.68828	Erdi Gunawan Putra	2220803082	2283C	Rumah Makan Kapau Jaya	Kuliner	3
+-2.94192	104.68821	Erdi Gunawan Putra	2220803082	2283C	Toko Eci Foto Copy	Jasa	3
+-2.94243	104.68764	Erdi Gunawan Putra	2220803082	2283C	Hijrah Store	Fashion	2
+-2.94152	104.68845	Erdi Gunawan Putra	2220803082	2283C	Ayam Geprek Mantap	Kuliner	1
+-2.94138	104.68855	Erdi Gunawan Putra	2220803082	2283C	Davisa Parfume	Dagang	1
+-2.9398	104.68911	Erdi Gunawan Putra	2220803082	2283C	Pangkas Rambut Ago Biru	Jasa	2
+-2.93954	104.68878	Erdi Gunawan Putra	2220803082	2283C	Sol Sepatu Bang Syam	Jasa	1
+-2.93895	104.68861	Erdi Gunawan Putra	2220803082	2283C	Toko Kaca Bintang Terang Jaya	Dagang	2
+-2.93836	104.68913	Erdi Gunawan Putra	2220803082	2283C	TB Harapan Jaya	Dagang	4
+-2.93811	104.68938	Erdi Gunawan Putra	2220803082	2283C	Platinum Laundry	Jasa	2
+-2.93705	104.69034	Erdi Gunawan Putra	2220803082	2283C	Planet Skate	Fashion	3
+-2.93672	104.69063	Erdi Gunawan Putra	2220803082	2283C	Papa Petshop	Dagang	2
+-2.93638	104.69099	Erdi Gunawan Putra	2220803082	2283C	Bengkel Mobil & Motor Gear	Jasa	4
+-2.93801	104.68981	Erdi Gunawan Putra	2220803082	2283C	Express Laundry	Jasa	2
+-2.93829	104.68958	Erdi Gunawan Putra	2220803082	2283C	Bakso Malang Sumber Rezeki	Kuliner	2
+-2.93863	104.68938	Erdi Gunawan Putra	2220803082	2283C	Toko Naysanduwot	Dagang	2
+-3.04343	104.78561	Naufal Ikhsan	2220803085	2283C	Chobuci Frozen Mart	Kuliner	4
+-3.02374	104.80507	Naufal Ikhsan	2220803085	2283C	Nasi Goreng Aditya	Kuliner	2
+-3.02378	104.80506	Naufal Ikhsan	2220803085	2283C	Martabak Aizikro	Kuliner	2
+-3.02391	104.80502	Naufal Ikhsan	2220803085	2283C	Pecel Ayam & Pecel Lele "Bu Ocha"	Kuliner	3
+-3.02753	104.80223	Naufal Ikhsan	2220803085	2283C	Tegal Jaya Service	Jasa	2
+-3.02754	104.80223	Naufal Ikhsan	2220803085	2283C	The Continental "Barber Shop"	Jasa	
+-3.03173	104.7995	Naufal Ikhsan	2220803085	2283C	Ayam Kalasan "Udin"	Kuliner	
+-3.03086	104.79971	Naufal Ikhsan	2220803085	2283C	Barbershop Abah Hair & Shave	Jasa	
+-3.03063	104.79982	Naufal Ikhsan	2220803085	2283C	Bluuttea	Dagang	
+-3.03057	104.79985	Naufal Ikhsan	2220803085	2283C	Aksara Pena	Dagang	
+-3.03039	104.79994	Naufal Ikhsan	2220803085	2283C	San Service HP	Jasa	
+-3.03036	104.79996	Naufal Ikhsan	2220803085	2283C	Almeera Dental Clinic	Jasa	
+-3.02996	104.80022	Naufal Ikhsan	2220803085	2283C	Ace Laundry	Jasa	
+-3.02891	104.80093	Naufal Ikhsan	2220803085	2283C	Rental PS Tanfeo	Jasa	
+-3.02714	104.80221	Naufal Ikhsan	2220803085	2283C	Hannochs Istana cahaya kristal	Dagang	
+-2.99127	104.75574	Ahmad Jibrael Algandi	2220803092	2283C	Martabak	Dagang	2
+-2.99155	104.75492	Ahmad Jibrael Algandi	2220803092	2283C	Roti Donat Merdeka	Dagang	2
+-2.99121	104.75384	Ahmad Jibrael Algandi	2220803092	2283C	Dimsum by Gielsa	Dagang	1
+-2.99084	104.75241	Ahmad Jibrael Algandi	2220803092	2283C	Toko Penjahit Various	Jasa	1
+-2.99051	104.74957	Ahmad Jibrael Algandi	2220803092	2283C	Pempek Kapten	Kuliner	3
+-2.99046	104.74924	Ahmad Jibrael Algandi	2220803092	2283C	Kue Pukis Kota Baru	Dagang	2
+-2.99061	104.74626	Ahmad Jibrael Algandi	2220803092	2283C	Pecel Lele	Dagang	3
+-2.99023	104.74503	Ahmad Jibrael Algandi	2220803092	2283C	Pecel Lele	Dagang	4
+-2.98987	104.74436	Ahmad Jibrael Algandi	2220803092	2283C	Es Jeruk Peras Oirio	Dagang	2
+-2.97341	104.73849	Ahmad Jibrael Algandi	2220803092	2283C	Bubur Ayam Bandung Udin	Dagang	3
+-2.97269	104.739	Ahmad Jibrael Algandi	2220803092	2283C	Bubur Goreng Bang Tora	Dagang	1
+-2.97106	104.73799	Ahmad Jibrael Algandi	2220803092	2283C	Pempek Udin	Dagang	2
+-2.97036	104.73609	Ahmad Jibrael Algandi	2220803092	2283C	Pecel Lele Mampir Merdeka	Dagang	4
+-2.97031	104.73598	Ahmad Jibrael Algandi	2220803092	2283C	Kaka Boz Barbershop	Dagang	2
+-2.99124	104.74505	Berlia Nisyah	2230803095	2283C	Croffel Bits	Dagang	2
+-2.99133	104.74498	Berlia Nisyah	2230803095	2283C	Hannah Coffe	Dagang	1
+-2.99128	104.74505	Berlia Nisyah	2230803095	2283C	Green Tea Pemadam Kelaparan	Dagang	1
+-2.99119	104.74511	Berlia Nisyah	2230803095	2283C	Gyoza Blunak	Dagang	1
+-2.99117	104.74512	Berlia Nisyah	2230803095	2283C	Tahu Bakso Kito	Dagang	2
+-2.99085	104.74546	Berlia Nisyah	2230803095	2283C	O Pukis	Dagang	1
+-2.99068	104.7455	Berlia Nisyah	2230803095	2283C	Tahu Bulat Khas Ciamis	Dagang	2
+-2.99076	104.74566	Berlia Nisyah	2230803095	2283C	Mie Ayam Bakso	Dagang	2
+-2.99076	104.74565	Berlia Nisyah	2230803095	2283C	Cireng Kuah Keju Creamy	Dagang	2
+-2.99096	104.74571	Berlia Nisyah	2230803095	2283C	Jajanan Keisha	Dagang	2
+-2.99115	104.74569	Berlia Nisyah	2230803095	2283C	Warung Bu Lili	Dagang	1
+-2.99124	104.74579	Berlia Nisyah	2230803095	2283C	Seblak Teh Dian	Dagang	3
+-2.99116	104.74578	Berlia Nisyah	2230803095	2283C	Toko Beni	Dagang	5
+-2.92366	104.66354	Berlia Nisyah	2230803095	2283C	Dimsum Desti	Dagang	4
+-2.92364	104.66349	Berlia Nisyah	2230803095	2283C	Toko Sri Mulyani	Dagang	4
+-3.003492	104.764343	Riska Aprilia Putri	2230803097	2283C	Jus Buah Dimas	Kuliner	1
+-3.004858	104.764203	Riska Aprilia Putri	2230803097	2283C	Seblak Prasmanan Mutiara	Kuliner	1
+-2.994881	104.778448	Riska Aprilia Putri	2230803097	2283C	Dimsum Mentai by Icha	Kuliner	2
+-3.005503	104.763329	Riska Aprilia Putri	2230803097	2283C	Tekwan Model Bik Sanah	Kuliner	1
+-3.005017	104.76343	Riska Aprilia Putri	2230803097	2283C	Angkringan Laperpool	Kuliner	7
+-3.004672	104.763644	Riska Aprilia Putri	2230803097	2283C	Pecel Lele Alika	Kuliner	4
+-3.002704	104.764739	Riska Aprilia Putri	2230803097	2283C	Pisang Goreng Tanduk Crispy	Kuliner	1
+-3.008303	104.760885	Riska Aprilia Putri	2230803097	2283C	Kedai Chelline Dimsum	Kuliner	1
+-3.004946	104.763694	Riska Aprilia Putri	2230803097	2283C	Toko Buah Unyil	Dagang	2
+-3.003133	104.764424	Riska Aprilia Putri	2230803097	2283C	Damai Cell	Dagang	1
+-3.004542	104.763927	Riska Aprilia Putri	2230803097	2283C	Hidayah Cell	Dagang	1
+-3.00507	104.764551	Riska Aprilia Putri	2230803097	2283C	Warung Bik War	Dagang	1
+-2.991564	104.785049	Riska Aprilia Putri	2230803097	2283C	Mr.Cuts Barbershop	Jasa	6
+-3.005301	104.76345	Riska Aprilia Putri	2230803097	2283C	Cantika Salon Bekam	Jasa	2
+-3.005899	104.762884	Riska Aprilia Putri	2230803097	2283C	Bengkel Motor Aam	Jasa	3
+-3.007265	104.76427	Riska Aprilia Putri	2230803097	2283C	Salon Ega Lashbeauty	Jasa	2
+-3.007287	104.764367	Riska Aprilia Putri	2230803097	2283C	Angga'k D'Barbershop	Jasa	3
+-3.007347	104.764968	Riska Aprilia Putri	2230803097	2283C	Family Laundry	Jasa	2
+-2.954916	104.748216	Elvisa Dwian	2230803098	2283C	Es Bubur Sum-sum Kang Andi	Kuliner	1
+-2.95485	104.748133	Elvisa Dwian	2230803098	2283C	Model Versu	Kuliner	1
+-2.954883	104.7481	Elvisa Dwian	2230803098	2283C	Tahu Crispy Mami	Kuliner	1
+-2.954933	104.748	Elvisa Dwian	2230803098	2283C	Bengkel Wak Amran	Jasa	1
+-2.949616	104.747466	Elvisa Dwian	2230803098	2283C	Minang Raya II	Kuliner	1
+-2.948066	104.746783	Elvisa Dwian	2230803098	2283C	Am Impression Barbershop	Jasa	2
+-2.94525	104.74555	Elvisa Dwian	2230803098	2283C	Warung Bude TIN	Kuliner	2
+-2.943766	104.745566	Elvisa Dwian	2230803098	2283C	Bakso Kito Barokah	Kuliner	2
+-2.945533	104.745483	Elvisa Dwian	2230803098	2283C	Sate Madura Romi	Kuliner	2
+-2.9427	104.74555	Elvisa Dwian	2230803098	2283C	Pecel Lele Mbak Uti	Kuliner	1
+-2.942783	104.745583	Elvisa Dwian	2230803098	2283C	Warung Model Ibu Sur	Kuliner	1
+-2.943083	104.745666	Elvisa Dwian	2230803098	2283C	Acira Hijab	Fashion	2
+-2.940633	104.743166	Elvisa Dwian	2230803098	2283C	Rajanya Jus	Dagang	2
+-2.939716	104.742666	Elvisa Dwian	2230803098	2283C	Tahu Bulat Sukamanah	Kuliner	1
+-2.934866	104.735116	Elvisa Dwian	2230803098	2283C	Seblak Mama Tiga Putra	Kuliner	8
+-2.56853	104.800149	Muhammad Ariski Saddan	2230803159	2283C	Konter	Dagang	
+-2.56945	104.47124	Muhammad Ariski Saddan	2230803159	2283C	Warung Sop buntut	Dagang	
+-2.5694	104.47992	Muhammad Ariski Saddan	2230803159	2283C	Kosmetik	Fashion	
+-2.57003	104.47932	Muhammad Ariski Saddan	2230803159	2283C	Nasi goreng	Kuliner	
+-2.57026	104.47908	Muhammad Ariski Saddan	2230803159	2283C	Konter	Dagang	
+-2.57106	104.47811	Muhammad Ariski Saddan	2230803159	2283C	Nasi Padang	Kuliner	
+-2.57124	104.47764	Muhammad Ariski Saddan	2230803159	2283C	Konter	Dagang	
+-2.57148	104.47693	Muhammad Ariski Saddan	2230803159	2283C	Makanan Kucing	Dagang	
+-2.5716	104.47656	Muhammad Ariski Saddan	2230803159	2283C	Warung	Dagang	
+-2.57233	104.47381	Muhammad Ariski Saddan	2230803159	2283C	Toko Kerupuk	Dagang	
+-2.57241	104.47362	Muhammad Ariski Saddan	2230803159	2283C	Pecel Lele Ayam Bakar Abang Ray	Kuliner	
+-2.57257	104.47309	Muhammad Ariski Saddan	2230803159	2283C	Toko Vape	Dagang	
+-2.57278	104.47239	Muhammad Ariski Saddan	2230803159	2283C	Martabak Manis	Kuliner	
+-2.57377	104.47307	Muhammad Ariski Saddan	2230803159	2283C	Sate Madura	Kuliner	
+-2.56902	104.47123	Muhammad Ariski Saddan	2230803159	2283C	Toko Adinda	Kuliner	
+-3.027402	104.778548	Nurfa Berlianti	2230803160	2283C	Agen Tempe	Dagang	5
+-3.062603	104.818661	Nurfa Berlianti	2230803160	2283C	Toko Sembako	Dagang	3
+-2.96175	104.771168	Nurfa Berlianti	2230803160	2283C	Es Teh	Dagang	1
+-3.04339	104.785476	Nurfa Berlianti	2230803160	2283C	Model Versi	Kuliner	3
+-3.039826	104.78124	Nurfa Berlianti	2230803160	2283C	Sembako Ana	Dagang	3
+-3.034201	104.779345	Nurfa Berlianti	2230803160	2283C	Bakso Mugi Berkah	Kuliner	1
+-3.06013	104.81713	Nurfa Berlianti	2230803160	2283C	Toko Pakaian	Fashion	1
+-3.060932	104.810187	Nurfa Berlianti	2230803160	2283C	RM Pindang Falih	Kuliner	5
+-3.061718	104.819677	Nurfa Berlianti	2230803160	2283C	Toko Sembako Bintang	Dagang	2
+-3.062029	104.819558	Nurfa Berlianti	2230803160	2283C	Warung	Dagang	1
+-3.060649	104.817658	Nurfa Berlianti	2230803160	2283C	Warung	Dagang	1
+-3.04976	104.802161	Nurfa Berlianti	2230803160	2283C	Rumah Makan Pondok Kari	Kuliner	3
+-3.048334	104.800739	Nurfa Berlianti	2230803160	2283C	Rumah Makan Mama Ineh	Kuliner	3
+-3.035032	104.792664	Nurfa Berlianti	2230803160	2283C	Ayam Gepuk	Kuliner	2
+-3.03527	104.793435	Nurfa Berlianti	2230803160	2283C	Restoran Sederhana	Kuliner	6
+-3.03653	104.793283	Nurfa Berlianti	2230803160	2283C	Pisang Keju RR	Dagang	1
+-3.004159	104.771764	Widiya Srilestari	2230803161	2283C	Avini Buah	Dagang	
+-3.004158	104.771766	Widiya Srilestari	2230803161	2283C	Gie Seblak	Kuliner	
+-3.001298	104.770353	Widiya Srilestari	2230803161	2283C	Pecel Lele Yuli	Kuliner	
+-3.050654	104.803055	Widiya Srilestari	2230803161	2283C	Nasi Padang Rambutan	Kuliner	
+-3.498625	104.802518	Widiya Srilestari	2230803161	2283C	Ayam Bakar Mas Ade	Kuliner	
+-3.049286	104.802128	Widiya Srilestari	2230803161	2283C	RM Pindang Selapan Bu Susini	Kuliner	
+-3.049048	104.801974	Widiya Srilestari	2230803161	2283C	Toko Sembako Rambutan	Dagang	
+-3.048663	104.801712	Widiya Srilestari	2230803161	2283C	Sate Ayam Kambing Khas Madura Pak Toga	Kuliner	
+-3.04054	104.79628	Widiya Srilestari	2230803161	2283C	Sembako dan Manisan Adelio	Dagang	
+-3.040432	104.796412	Widiya Srilestari	2230803161	2283C	Bakso dan Sembako Raden	Kuliner	
+-3.002688	104.774207	Widiya Srilestari	2230803161	2283C	Haji dan Umrah Bersama Harmain Tour	Kuliner	
+-3.036226	104.793399	Widiya Srilestari	2230803161	2283C	Bakaran Blackpink	Kuliner	
+-3.036725	104.793706	Widiya Srilestari	2230803161	2283C	Pecel Lele Nasi Goreng	Kuliner	
+-3.037175	104.793999	Widiya Srilestari	2230803161	2283C	Buah Segar Hermina	Dagang	
+-3.037728	104.794392	Widiya Srilestari	2230803161	2283C	Toko Durian	Dagang	
+-2.962492	104.7208604	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Toko Plastik dan Bahan Kue Mustanir	Dagang	3
+-2.96025	104.71878	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Junaidi Penjahit	Jasa	1
+-2.9612558	104.7187818	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Bengkel Las Saudara Jaya	Jasa	5
+-2.96106	104.71871	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Warung Sayur Neli	Dagang	2
+-2.9599864	104.7209449	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Warung Nasi Goreng Pakde Jaka	Kuliner	2
+-2.9539881	104.7327262	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Adnan Penjahit	Jasa	1
+-2.9560797	104.7273609	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	wiishop collection	Fashion	3
+-2.9668	104.71682	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Cayoca Collection	Fashion	3
+-2.96094	104.71865	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Toko Sembako Tina	Dagang	3
+-2.96229	104.72149	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Pangkas Rambut Serasi	Jasa	2
+-2.96254	104.71993	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Service HP MM	Jasa	2
+-2.95581	104.72759	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Pondok Dogan Kurnia	Dagang	5
+-2.96243	104.71977	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Warung Sayur Mang Hasan	Dagang	3
+-2.96102	104.71657	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Toko Sembako Ivan	Dagang	5
+-2.962597	104.719067	Muhammad Rifqi Thoohaa Anas	2210803009	2283C	Angkringan dan Pecel Lele SAS	Kuliner	2
+-2.9644009	104.7744998	Muhammad Faiz Maulana	2210803010	2283C	Warung Rafly	Dagang	1
+-2.9619779	104.7539218	Muhammad Faiz Maulana	2210803010	2283C	Pempek Nini	Kuliner	3
+-2.9619763	104.7538705	Muhammad Faiz Maulana	2210803010	2283C	Rocket Eyang	Kuliner	3
+-2.961918	104.7555971	Muhammad Faiz Maulana	2210803010	2283C	Es Kacang Nafisah	Kuliner	1
+-2.9622918	104.7524341	Muhammad Faiz Maulana	2210803010	2283C	Salsa Fresh Salad	Kuliner	1
+-2.9621539	104.7543212	Muhammad Faiz Maulana	2210803010	2283C	Gadget Corner	Jasa	1
+-2.9622284	104.7507015	Muhammad Faiz Maulana	2210803010	2283C	Adi Warung	Dagang	3
+-2.96187	104.75327	Muhammad Faiz Maulana	2210803010	2283C	Seblak Cek Nita	Kuliner	2
+-2.96083	104.75336	Muhammad Faiz Maulana	2210803010	2283C	Vinnese Florist	Dagang	1
+-2.9610736	104.7497652	Muhammad Faiz Maulana	2210803010	2283C	Rafi Laundry	Jasa	2
+-2.9626687	104.7519545	Muhammad Faiz Maulana	2210803010	2283C	Toko Mata Pancing	Dagang	2
+-2.96312	104.75134	Muhammad Faiz Maulana	2210803010	2283C	Model Tekwan	Kuliner	1
+-2.96645	104.75276	Muhammad Faiz Maulana	2210803010	2283C	Toko Klontong	Dagang	3
+-2.96528	104.75394	Muhammad Faiz Maulana	2210803010	2283C	Martabak AR	Kuliner	1
+-2.9635	104.75378	Muhammad Faiz Maulana	2210803010	2283C	Toko Amri	Dagang	2
