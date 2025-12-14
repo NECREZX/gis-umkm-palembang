@@ -3,19 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      
-      <meta property="og:title" content="SIG Pemetaan UMKM Kota Palembang" />
-<meta property="og:description" content="Sistem Informasi Geografis Pemetaan UMKM Kota Palembang" />
-<meta property="og:url" content="https://gis-umkm-palembang.infinityfreeapp.com/" />
-<meta property="og:type" content="website" />
-
-<meta property="og:image" content="https://gis-umkm-palembang.infinityfreeapp.com/img/background-thumbnail.jpg" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-
-      
-   <link rel="icon" type="image/png" href="img/logo-uin.png" />
+    <link rel="icon" type="image/png" href="img/logo-uin.png" />
     <title>Sistem Informasi Geografis Pemetaan UMKM Kota Palembang</title>
 
     <!-- Leaflet CSS -->
@@ -228,7 +216,7 @@
     </div>
 
     <div id="map"></div>
-    <div class="map-brand">🗺️ SIG UMKM • BabeCuaca • 2283C</div>
+    <div class="map-brand">🗺️ SIG UMKM • 2283C</div>
 
     <aside id="dashboardPanel">
       <h2>Dashboard UMKM</h2>
@@ -277,6 +265,12 @@
       <button class="filter-btn" data-cat="Fashion">Fashion</button>
       <button class="filter-btn" data-cat="Jasa">Jasa</button>
       <button class="filter-btn" data-cat="Agribisnis">Agribisnis</button>
+
+      <hr />
+      <h3>Filter Kelas</h3>
+      <button class="filter-btn active" data-kelas="ALL">Semua</button>
+      <button class="filter-btn" data-kelas="2283C">2283C</button>
+      <button class="filter-btn" data-kelas="2283D">2283D</button>
 
       <hr />
       <h3>Filter Nama</h3>
@@ -401,6 +395,8 @@
 
       function populateNamaFilter(data) {
         const select = document.getElementById("namaFilter");
+        select.innerHTML = `<option value="ALL">Semua</option>`;
+
         Array.from(new Set(data.map((d) => d.nama)))
           .sort()
           .forEach((n) => {
@@ -415,13 +411,29 @@
         const selectedCat =
           document.querySelector(".filter-btn[data-cat].active")?.dataset.cat ||
           "ALL";
+
+        const selectedKelas =
+          document.querySelector(".filter-btn[data-kelas].active")?.dataset
+            .kelas || "ALL";
+
         const selectedNama = document.getElementById("namaFilter").value;
 
         let filtered = originalData;
-        if (selectedCat !== "ALL")
+
+        // Filter kategori
+        if (selectedCat !== "ALL") {
           filtered = filtered.filter((d) => d.kategori === selectedCat);
-        if (selectedNama !== "ALL")
+        }
+
+        // Filter kelas
+        if (selectedKelas !== "ALL") {
+          filtered = filtered.filter((d) => d.kelas === selectedKelas);
+        }
+
+        // Filter nama
+        if (selectedNama !== "ALL") {
           filtered = filtered.filter((d) => d.nama === selectedNama);
+        }
 
         renderMarkers(filtered);
         updateStats(filtered);
@@ -429,19 +441,19 @@
       }
 
       function renderMarkers(data) {
-  csvLayer.clearLayers();
+        csvLayer.clearLayers();
 
-  data.forEach((row) => {
-    if (!row.latitude || !row.longitude) return;
+        data.forEach((row) => {
+          if (!row.latitude || !row.longitude) return;
 
-    const lat = parseFloat(row.latitude.replace(/,/g, "."));
-    const lng = parseFloat(row.longitude.replace(/,/g, "."));
-    if (isNaN(lat) || isNaN(lng)) return;
+          const lat = parseFloat(row.latitude.replace(/,/g, "."));
+          const lng = parseFloat(row.longitude.replace(/,/g, "."));
+          if (isNaN(lat) || isNaN(lng)) return;
 
-    const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
-    let isDetail = false;
+          const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
+          let isDetail = false;
 
-    const popupRingkas = () => `
+          const popupRingkas = () => `
       <div class="popup-card" style="background:${warna}">
         <b>${row.umkm}</b><br>
         <b>Kategori:</b> ${row.kategori}<br>
@@ -449,7 +461,7 @@
       </div>
     `;
 
-    const popupDetail = () => `
+          const popupDetail = () => `
       <div class="popup-card" style="background:${warna}">
         <b>${row.umkm}</b>
         <hr>
@@ -464,33 +476,29 @@
       </div>
     `;
 
-    const marker = L.marker([lat, lng], {
-      icon: markerIcons[row.kategori] || markerIcons["Jasa"],
-    })
-      .bindPopup(popupRingkas())
-      .addTo(csvLayer);
+          const marker = L.marker([lat, lng], {
+            icon: markerIcons[row.kategori] || markerIcons["Jasa"],
+          })
+            .bindPopup(popupRingkas())
+            .addTo(csvLayer);
 
-    marker.on("popupopen", (e) => {
-      const popupEl = e.popup.getElement();
-      if (!popupEl) return;
+          marker.on("popupopen", (e) => {
+            const popupEl = e.popup.getElement();
+            if (!popupEl) return;
 
-      const btn = popupEl.querySelector(".detail-btn");
-      if (!btn) return;
+            const btn = popupEl.querySelector(".detail-btn");
+            if (!btn) return;
 
-      btn.onclick = (ev) => {
-        ev.preventDefault();
-        ev.stopPropagation();
+            btn.onclick = (ev) => {
+              ev.preventDefault();
+              ev.stopPropagation();
 
-        isDetail = !isDetail;
-        marker.setPopupContent(
-          isDetail ? popupDetail() : popupRingkas()
-        );
-      };
-    });
-  });
-}
-
-
+              isDetail = !isDetail;
+              marker.setPopupContent(isDetail ? popupDetail() : popupRingkas());
+            };
+          });
+        });
+      }
 
       function updateStats(data) {
         document.getElementById("totalUmkm").textContent = data.length;
@@ -548,23 +556,70 @@
       // FILTER KATEGORI
       document.querySelectorAll(".filter-btn[data-cat]").forEach((btn) => {
         btn.addEventListener("click", () => {
+          // aktifkan kategori
           document
             .querySelectorAll(".filter-btn[data-cat]")
             .forEach((b) => b.classList.remove("active"));
           btn.classList.add("active");
+
+          // reset filter kelas ke ALL
+          document
+            .querySelectorAll(".filter-btn[data-kelas]")
+            .forEach((b) => b.classList.remove("active"));
+          document
+            .querySelector(".filter-btn[data-kelas][data-kelas='ALL']")
+            .classList.add("active");
+
+          // reset filter nama
           document.getElementById("namaFilter").value = "ALL";
+
+          populateNamaFilter(originalData);
+
+          applyFilter();
+        });
+      });
+
+      // FILTER KELAS
+      document.querySelectorAll(".filter-btn[data-kelas]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".filter-btn[data-kelas]")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          // reset nama
+          document.getElementById("namaFilter").value = "ALL";
+
+          // update dropdown nama sesuai kelas
+          const kelas = btn.dataset.kelas;
+          const dataNama =
+            kelas === "ALL"
+              ? originalData
+              : originalData.filter((d) => d.kelas === kelas);
+          populateNamaFilter(dataNama);
+
           applyFilter();
         });
       });
 
       // FILTER NAMA
       document.getElementById("namaFilter").addEventListener("change", () => {
+        // reset kategori ke ALL
         document
           .querySelectorAll(".filter-btn[data-cat]")
           .forEach((b) => b.classList.remove("active"));
         document
           .querySelector(".filter-btn[data-cat][data-cat='ALL']")
           .classList.add("active");
+
+        // reset kelas ke ALL
+        document
+          .querySelectorAll(".filter-btn[data-kelas]")
+          .forEach((b) => b.classList.remove("active"));
+        document
+          .querySelector(".filter-btn[data-kelas][data-kelas='ALL']")
+          .classList.add("active");
+
         applyFilter();
       });
 
