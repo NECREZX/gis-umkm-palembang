@@ -438,10 +438,6 @@
           if (isNaN(lat) || isNaN(lng)) return;
 
           const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
-          const foto =
-            row.photo && row.photo.trim() !== ""
-              ? `<img src="${row.photo}">`
-              : `<i>Tidak ada foto</i>`;
 
           // Popup ringkas
           const popupHTML = `<div class="popup-card" style="background:${warna}">
