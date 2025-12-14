@@ -439,8 +439,17 @@
     if (isNaN(lat) || isNaN(lng)) return;
 
     const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
+    let isDetail = false;
 
-    const popupHTML = `
+    const popupRingkas = () => `
+      <div class="popup-card" style="background:${warna}">
+        <b>${row.umkm}</b><br>
+        <b>Kategori:</b> ${row.kategori}<br>
+        <button class="detail-btn">Lihat Detail</button>
+      </div>
+    `;
+
+    const popupDetail = () => `
       <div class="popup-card" style="background:${warna}">
         <b>${row.umkm}</b>
         <hr>
@@ -450,17 +459,37 @@
         <b>Kategori:</b> ${row.kategori}<br>
         <b>Pegawai:</b> ${row.jlhpegawai}<br>
         <b>Latitude:</b> ${row.latitude}<br>
-        <b>Longitude:</b> ${row.longitude}
+        <b>Longitude:</b> ${row.longitude}<br>
+        <button class="detail-btn">⬅ Kembali</button>
       </div>
     `;
 
-    L.marker([lat, lng], {
+    const marker = L.marker([lat, lng], {
       icon: markerIcons[row.kategori] || markerIcons["Jasa"],
     })
-      .bindPopup(popupHTML)
+      .bindPopup(popupRingkas())
       .addTo(csvLayer);
+
+    marker.on("popupopen", (e) => {
+      const popupEl = e.popup.getElement();
+      if (!popupEl) return;
+
+      const btn = popupEl.querySelector(".detail-btn");
+      if (!btn) return;
+
+      btn.onclick = (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+
+        isDetail = !isDetail;
+        marker.setPopupContent(
+          isDetail ? popupDetail() : popupRingkas()
+        );
+      };
+    });
   });
 }
+
 
 
       function updateStats(data) {
