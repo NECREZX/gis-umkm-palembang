@@ -1,20 +1,589 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+      <meta property="og:title" content="SIG Pemetaan UMKM Kota Palembang" />
+<meta property="og:description" content="Sistem Informasi Geografis Pemetaan UMKM Kota Palembang" />
+<meta property="og:url" content="https://gis-umkm-palembang.vercel.app/" />
+<meta property="og:image" content="https://gis-umkm-palembang.vercel.app/img/background-thumbnail.jpg" />
 
-  <meta property="og:title" content="SIG Pemetaan UMKM Kota Palembang" />
-  <meta property="og:description" content="Sistem Informasi Geografis Pemetaan UMKM Kota Palembang" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://gis-umkm-palembang.vercel.app/" />
-  <meta property="og:image" content="https://gis-umkm-palembang.infinityfreeapp.com/img/background-thumbnail.jpg" />
+<meta property="og:type" content="website" />
 
-  <title>SIG UMKM Palembang</title>
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-  <meta http-equiv="refresh" content="0; url=https://gis-umkm-palembang.infinityfreeapp.com/" />
-</head>
-<body>
-  Redirecting...
-</body>
+      
+   <link rel="icon" type="image/png" href="img/logo-uin.png" />
+    <title>Sistem Informasi Geografis Pemetaan UMKM Kota Palembang</title>
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.70.0/dist/L.Control.Locate.min.css"
+    />
+
+    <style>
+      /* GLOBAL */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      /* HEADER */
+      .header {
+        background-color: #b86b4b;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        position: relative;
+      }
+      .logo-uin {
+        height: 60px;
+        margin-right: 10px;
+      }
+      .header-text h1 {
+        margin: 0;
+        font-size: clamp(16px, 2vw, 22px);
+        text-align: center;
+      }
+
+      /* MAP */
+      #map {
+        flex: 1;
+        width: 100%;
+      }
+
+      /* HAMBURGER */
+      #menuBtn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
+        padding: 8px 14px;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+        background: #b86b4b;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.25s;
+      }
+      #menuBtn:hover {
+        background: #c07a63;
+      }
+
+      /* SIDEBAR */
+      #dashboardPanel {
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        width: 350px;
+        max-width: 90%;
+        height: calc(98% - 100px);
+        background: #fff;
+        padding: 20px;
+        box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3);
+        overflow-y: auto;
+        transition: right 0.3s ease;
+        z-index: 9998;
+      }
+      #dashboardPanel.open {
+        right: 0;
+      }
+
+      /* STAT & FILTER */
+      .stat-box,
+      .filter-btn,
+      select {
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+      .stat-box {
+        background: #f2f2f2;
+        padding: 10px;
+      }
+      .filter-btn,
+      select {
+        width: 100%;
+        padding: 10px;
+        background: #b86b4b;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      .filter-btn:hover,
+      select:hover {
+        background: #c07a63;
+      }
+      .filter-btn.active {
+        background: #8c4f3a;
+      }
+
+      /* LAYER PANEL */
+      #layerPanel {
+        display: none;
+        background: #eee;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+
+      /* MAP BRAND */
+      .map-brand {
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 4px 8px;
+        border-radius: 10px;
+        font-size: 12px;
+        z-index: 1000;
+      }
+
+      /* POPUP */
+      .popup-card {
+        border-radius: 8px;
+        padding: 8px;
+        color: #fff;
+        font-size: 14px;
+        max-width: 220px;
+      }
+      .popup-card img {
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 5px;
+      }
+      .popup-card button {
+        margin-top: 6px;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 6px;
+        background: #34495e;
+        color: #fff;
+        cursor: pointer;
+      }
+      .popup-card button:hover {
+        background: #2c3e50;
+      }
+
+      /* RESPONSIVE MEDIA */
+      @media (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          padding: 8px;
+        }
+        .logo-uin {
+          margin: 0 0 6px 0;
+          height: 50px;
+        }
+        .header-text h1 {
+          font-size: clamp(14px, 4vw, 18px);
+        }
+        #menuBtn {
+          top: 8px;
+          right: 8px;
+        }
+        #dashboardPanel {
+          width: 90%;
+        }
+      }
+      @media (max-width: 480px) {
+        .header-text h1 {
+          font-size: clamp(12px, 4vw, 16px);
+        }
+        #dashboardPanel {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="img/logo-uin.png" alt="Logo UIN" class="logo-uin" />
+      <div class="header-text">
+        <h1>Sistem Informasi Geografis Pemetaan UMKM</h1>
+        <h1>Kota Palembang</h1>
+      </div>
+      <button id="menuBtn">☰</button>
+    </div>
+
+    <div id="map"></div>
+    <div class="map-brand">🗺️ SIG UMKM • BabeCuaca • 2283C</div>
+
+    <aside id="dashboardPanel">
+      <h2>Dashboard UMKM</h2>
+      <button class="filter-btn" id="toggleLayerInside">📌 Layer</button>
+      <div id="layerPanel">
+        <b>Base Layer</b><br />
+        <label
+          ><input type="radio" name="base" value="osm" checked />
+          OpenStreetMap</label
+        ><br />
+        <label
+          ><input type="radio" name="base" value="google" /> Google Maps</label
+        ><br />
+        <label
+          ><input type="radio" name="base" value="satellite" /> Google
+          Satellite</label
+        ><br />
+        <label><input type="radio" name="base" value="light" /> Light Map</label
+        ><br />
+        <hr />
+        <b>Overlay</b><br />
+        <label
+          ><input type="checkbox" id="csvToggle" checked /> Data UMKM</label
+        >
+      </div>
+
+      <hr />
+      <div class="stat-box">
+        <b>Total UMKM:</b> <span id="totalUmkm">0</span>
+      </div>
+      <div class="stat-box"><b>Dagang:</b> <span id="catDagang">0</span></div>
+      <div class="stat-box"><b>Kuliner:</b> <span id="catKuliner">0</span></div>
+      <div class="stat-box"><b>Fashion:</b> <span id="catFashion">0</span></div>
+      <div class="stat-box"><b>Jasa:</b> <span id="catJasa">0</span></div>
+      <div class="stat-box"><b>Agribisnis:</b> <span id="catAgri">0</span></div>
+
+      <hr />
+      <h3>Grafik UMKM per Kategori</h3>
+      <canvas id="umkmChart" height="200"></canvas>
+
+      <hr />
+      <h3>Filter Kategori</h3>
+      <button class="filter-btn active" data-cat="ALL">Semua</button>
+      <button class="filter-btn" data-cat="Dagang">Dagang</button>
+      <button class="filter-btn" data-cat="Kuliner">Kuliner</button>
+      <button class="filter-btn" data-cat="Fashion">Fashion</button>
+      <button class="filter-btn" data-cat="Jasa">Jasa</button>
+      <button class="filter-btn" data-cat="Agribisnis">Agribisnis</button>
+
+      <hr />
+      <h3>Filter Nama</h3>
+      <select id="namaFilter">
+        <option value="ALL">Semua</option>
+      </select>
+    </aside>
+
+    <!-- SCRIPT -->
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.70.0/dist/L.Control.Locate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      const map = L.map("map", { center: [-2.9882, 104.7611], zoom: 13 });
+      const Att = "&copy; LeafletJS | 2283C";
+
+      const lyrOsm = L.tileLayer(
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        { attribution: Att }
+      ).addTo(map);
+      const lyrGoogle = L.tileLayer(
+        "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
+        {
+          maxZoom: 20,
+          subdomains: ["mt0", "mt1", "mt2", "mt3"],
+          attribution: Att,
+        }
+      );
+      const lyrGoogleSat = L.tileLayer(
+        "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+        {
+          maxZoom: 20,
+          subdomains: ["mt0", "mt1", "mt2", "mt3"],
+          attribution: Att,
+        }
+      );
+      const lyrLight = L.tileLayer(
+        "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+        { attribution: Att }
+      );
+
+      const csvLayer = L.layerGroup().addTo(map);
+      let originalData = [];
+      let umkmChart = null;
+
+      const kategoriWarna = {
+        Dagang: "#e74c3c",
+        Kuliner: "#f39c12",
+        Fashion: "#9b59b6",
+        Jasa: "#3498db",
+        Agribisnis: "#2ecc71",
+      };
+
+      const markerIcons = {
+        Dagang: new L.Icon({
+          iconUrl:
+            "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png",
+          shadowUrl:
+            "https://unpkg.com/leaflet@1.8.0/dist/images/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+        Kuliner: new L.Icon({
+          iconUrl:
+            "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png",
+          shadowUrl:
+            "https://unpkg.com/leaflet@1.8.0/dist/images/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+        Fashion: new L.Icon({
+          iconUrl:
+            "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png",
+          shadowUrl:
+            "https://unpkg.com/leaflet@1.8.0/dist/images/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+        Jasa: new L.Icon({
+          iconUrl:
+            "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png",
+          shadowUrl:
+            "https://unpkg.com/leaflet@1.8.0/dist/images/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+        Agribisnis: new L.Icon({
+          iconUrl:
+            "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png",
+          shadowUrl:
+            "https://unpkg.com/leaflet@1.8.0/dist/images/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+      };
+
+      // PARSE CSV
+      Papa.parse("src/dataumkm2283c.csv", {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        transformHeader: (h) => h.replace(/[^a-zA-Z0-9_]/g, ""),
+        complete: function (result) {
+          originalData = result.data;
+          populateNamaFilter(originalData);
+          applyFilter();
+        },
+        error: (err) => console.error(err),
+      });
+
+      function populateNamaFilter(data) {
+        const select = document.getElementById("namaFilter");
+        Array.from(new Set(data.map((d) => d.nama)))
+          .sort()
+          .forEach((n) => {
+            const opt = document.createElement("option");
+            opt.value = n;
+            opt.textContent = n;
+            select.appendChild(opt);
+          });
+      }
+
+      function applyFilter() {
+        const selectedCat =
+          document.querySelector(".filter-btn[data-cat].active")?.dataset.cat ||
+          "ALL";
+        const selectedNama = document.getElementById("namaFilter").value;
+
+        let filtered = originalData;
+        if (selectedCat !== "ALL")
+          filtered = filtered.filter((d) => d.kategori === selectedCat);
+        if (selectedNama !== "ALL")
+          filtered = filtered.filter((d) => d.nama === selectedNama);
+
+        renderMarkers(filtered);
+        updateStats(filtered);
+        updateChart(filtered);
+      }
+
+      function renderMarkers(data) {
+        csvLayer.clearLayers();
+        data.forEach((row) => {
+          if (!row.latitude || !row.longitude) return;
+          const lat = parseFloat(row.latitude.replace(/,/g, "."));
+          const lng = parseFloat(row.longitude.replace(/,/g, "."));
+          if (isNaN(lat) || isNaN(lng)) return;
+
+          const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
+          const foto =
+            row.photo && row.photo.trim() !== ""
+              ? `<img src="${row.photo}">`
+              : `<i>Tidak ada foto</i>`;
+
+          // Popup ringkas
+          const popupHTML = `<div class="popup-card" style="background:${warna}">
+            <b>${row.umkm}</b><br>
+            <b>Kategori:</b> ${row.kategori}<br>
+            <button class="detail-btn" data-nim="${row.nim}">Lihat Detail</button>
+          </div>`;
+
+          const marker = L.marker([lat, lng], {
+            icon: markerIcons[row.kategori] || markerIcons["Jasa"],
+          })
+            .bindPopup(popupHTML)
+            .addTo(csvLayer);
+
+          marker.on("popupopen", () => {
+            const btn = document.querySelector(
+              `.detail-btn[data-nim="${row.nim}"]`
+            );
+            if (btn) {
+              btn.onclick = () => {
+                const detailHTML = `<div class="popup-card" style="background:${warna}">
+                  <b>${row.umkm}</b>
+                  <hr>
+                  <b>Nama:</b> ${row.nama}<br>
+                  <b>NIM:</b> ${row.nim}<br>
+                  <b>Kelas:</b> ${row.kelas}<br>
+                  <b>Kategori:</b> ${row.kategori}<br>
+                  <b>Pegawai:</b> ${row.jlhpegawai}<br>
+                  <b>Latitude:</b> ${row.latitude}<br>
+                  <b>Longitude:</b> ${row.longitude}
+                </div>`;
+                marker.setPopupContent(detailHTML).openPopup();
+              };
+            }
+          });
+        });
+      }
+
+      function updateStats(data) {
+        document.getElementById("totalUmkm").textContent = data.length;
+        document.getElementById("catDagang").textContent = data.filter(
+          (d) => d.kategori === "Dagang"
+        ).length;
+        document.getElementById("catKuliner").textContent = data.filter(
+          (d) => d.kategori === "Kuliner"
+        ).length;
+        document.getElementById("catFashion").textContent = data.filter(
+          (d) => d.kategori === "Fashion"
+        ).length;
+        document.getElementById("catJasa").textContent = data.filter(
+          (d) => d.kategori === "Jasa"
+        ).length;
+        document.getElementById("catAgri").textContent = data.filter(
+          (d) => d.kategori === "Agribisnis"
+        ).length;
+      }
+
+      function updateChart(data) {
+        const categories = [
+          "Dagang",
+          "Kuliner",
+          "Fashion",
+          "Jasa",
+          "Agribisnis",
+        ];
+        const counts = categories.map(
+          (cat) => data.filter((d) => d.kategori === cat).length
+        );
+        const ctx = document.getElementById("umkmChart").getContext("2d");
+        if (umkmChart) umkmChart.destroy();
+        umkmChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: categories,
+            datasets: [
+              {
+                label: "Jumlah UMKM",
+                data: counts,
+                backgroundColor: categories.map((cat) => kategoriWarna[cat]),
+                borderColor: "#000",
+                borderWidth: 1,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } },
+          },
+        });
+      }
+
+      // FILTER KATEGORI
+      document.querySelectorAll(".filter-btn[data-cat]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".filter-btn[data-cat]")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          document.getElementById("namaFilter").value = "ALL";
+          applyFilter();
+        });
+      });
+
+      // FILTER NAMA
+      document.getElementById("namaFilter").addEventListener("change", () => {
+        document
+          .querySelectorAll(".filter-btn[data-cat]")
+          .forEach((b) => b.classList.remove("active"));
+        document
+          .querySelector(".filter-btn[data-cat][data-cat='ALL']")
+          .classList.add("active");
+        applyFilter();
+      });
+
+      // SIDEBAR TOGGLE
+      document.getElementById("menuBtn").onclick = () =>
+        document.getElementById("dashboardPanel").classList.toggle("open");
+      document.getElementById("toggleLayerInside").onclick = () => {
+        const p = document.getElementById("layerPanel");
+        p.style.display = p.style.display === "block" ? "none" : "block";
+      };
+
+      // BASE LAYER
+      document.querySelectorAll("input[name='base']").forEach((el) => {
+        el.addEventListener("change", function () {
+          map.removeLayer(lyrOsm);
+          map.removeLayer(lyrGoogle);
+          map.removeLayer(lyrGoogleSat);
+          map.removeLayer(lyrLight);
+          if (this.value === "osm") map.addLayer(lyrOsm);
+          if (this.value === "google") map.addLayer(lyrGoogle);
+          if (this.value === "satellite") map.addLayer(lyrGoogleSat);
+          if (this.value === "light") map.addLayer(lyrLight);
+        });
+      });
+
+      // CSV TOGGLE
+      document
+        .getElementById("csvToggle")
+        .addEventListener("change", function () {
+          this.checked ? map.addLayer(csvLayer) : map.removeLayer(csvLayer);
+        });
+    </script>
+  </body>
 </html>
