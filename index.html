@@ -429,55 +429,39 @@
       }
 
       function renderMarkers(data) {
-        csvLayer.clearLayers();
-        data.forEach((row) => {
-          if (!row.latitude || !row.longitude) return;
-          const lat = parseFloat(row.latitude.replace(/,/g, "."));
-          const lng = parseFloat(row.longitude.replace(/,/g, "."));
-          if (isNaN(lat) || isNaN(lng)) return;
+  csvLayer.clearLayers();
 
-          const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
-          const foto =
-            row.photo && row.photo.trim() !== ""
-              ? `<img src="${row.photo}">`
-              : `<i>Tidak ada foto</i>`;
+  data.forEach((row) => {
+    if (!row.latitude || !row.longitude) return;
 
-          // Popup ringkas
-          const popupHTML = `<div class="popup-card" style="background:${warna}">
-            <b>${row.umkm}</b><br>
-            <b>Kategori:</b> ${row.kategori}<br>
-            <button class="detail-btn" data-nim="${row.nim}">Lihat Detail</button>
-          </div>`;
+    const lat = parseFloat(row.latitude.replace(/,/g, "."));
+    const lng = parseFloat(row.longitude.replace(/,/g, "."));
+    if (isNaN(lat) || isNaN(lng)) return;
 
-          const marker = L.marker([lat, lng], {
-            icon: markerIcons[row.kategori] || markerIcons["Jasa"],
-          })
-            .bindPopup(popupHTML)
-            .addTo(csvLayer);
+    const warna = kategoriWarna[row.kategori?.trim()] || "#34495e";
 
-          marker.on("popupopen", () => {
-            const btn = document.querySelector(
-              `.detail-btn[data-nim="${row.nim}"]`
-            );
-            if (btn) {
-              btn.onclick = () => {
-                const detailHTML = `<div class="popup-card" style="background:${warna}">
-                  <b>${row.umkm}</b>
-                  <hr>
-                  <b>Nama:</b> ${row.nama}<br>
-                  <b>NIM:</b> ${row.nim}<br>
-                  <b>Kelas:</b> ${row.kelas}<br>
-                  <b>Kategori:</b> ${row.kategori}<br>
-                  <b>Pegawai:</b> ${row.jlhpegawai}<br>
-                  <b>Latitude:</b> ${row.latitude}<br>
-                  <b>Longitude:</b> ${row.longitude}
-                </div>`;
-                marker.setPopupContent(detailHTML).openPopup();
-              };
-            }
-          });
-        });
-      }
+    const popupHTML = `
+      <div class="popup-card" style="background:${warna}">
+        <b>${row.umkm}</b>
+        <hr>
+        <b>Nama:</b> ${row.nama}<br>
+        <b>NIM:</b> ${row.nim}<br>
+        <b>Kelas:</b> ${row.kelas}<br>
+        <b>Kategori:</b> ${row.kategori}<br>
+        <b>Pegawai:</b> ${row.jlhpegawai}<br>
+        <b>Latitude:</b> ${row.latitude}<br>
+        <b>Longitude:</b> ${row.longitude}
+      </div>
+    `;
+
+    L.marker([lat, lng], {
+      icon: markerIcons[row.kategori] || markerIcons["Jasa"],
+    })
+      .bindPopup(popupHTML)
+      .addTo(csvLayer);
+  });
+}
+
 
       function updateStats(data) {
         document.getElementById("totalUmkm").textContent = data.length;
